@@ -12,7 +12,7 @@
 
 #### **Description de la tâche**: Expliquez ce que fait votre système (entrée et sortie).
 
-Le système qui sera développé devra prendre en entrée une police de caractère ainsi qu'une image textuel ayant cette même police de caractère. Après traitement, Elle retournera une chaîne de caractère correspondant au texte donner en entrée sous forme imagée.
+Le système qui sera développé devra prendre en entrée une police de caractère ainsi qu'une image textuel ayant cette même police de caractère. Après traitement, Elle retournera une chaîne de caractère correspondant au texte donner en entrée sous forme imagée. Le modèle doit constamment apprendre de nouvelles polices de caractère. Elle doit s'adapter aux nouvelles polices de caractères utilisées et nommer par l'utilisateur.
 
 #### **Délimitation**: Assurez-vous que la tâche n'est ni trop large ni trop étroite.
 
@@ -53,7 +53,24 @@ De cette manière, nous assurons que le modèle s'entraîne de manière supervis
 
 #### évaluation
 
-Le but de ce projet est de comparer le modèle avec notre agrémentation avec le modèle de base. Ainsi, il sera possible de mesurer le gain ou la perte de précision du modèle. 
+Le but de ce projet est de comparer le modèle avec notre agrémentation avec le modèle de base. Ainsi, il sera possible de mesurer le gain ou la perte de précision du modèle. Nous comparons ainsi les scores F1, du modèle de base et du modèle avec notre agrémentation. Un modèle avec un score F1 moins élevé et moins précis et vice-versa. Il suffit donc de trouver le modèle avec le score F1 le plus élevé.
+
+Pour l'évaluation, il sera donc nécessaire d'écrire un programme Python simple qui mesurera la précision et le rappel, dépendant eux-mêmes de quatre données
+
++ faux positif (TP)
++ faut négatif (FN)
++ vrai positif (TP)
++ vrai négatif (TN)
+
+Nous avons le choix de calculer ces données parmi différentes grandeurs textuel. Nous pouvons les calculer à partir :
+
++ Des caractères correctement reconnus
++ Des mots correctement reconnus
++ Des lignes correctement reconnues
++ Des phrases correctement reconnues
+
+
+
 
 
 

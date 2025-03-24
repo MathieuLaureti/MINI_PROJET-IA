@@ -1,12 +1,35 @@
 import os
 import subprocess
 import shutil
+from create_data import create_training_data
+import datetime
+directory = "fonts"
+font_list = os.listdir(directory)
+font_name = None
+print("List of available fonts:")
+for i, font in enumerate(font_list):
+    print(f"{i+1}. {font}")
+font_input = input("Enter the font digit : ")
+
+
+font_path = os.path.join(directory, font_list[int(font_input)-1])
+
+print(font_path)
+
+data_size = input("Enter the number of images to generate : ")
+
+font_name = os.path.splitext(os.path.basename(font_path))[0]
+
+default_name = f"{font_name}_{data_size}_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-1%S')}"
+name = input(f"Enter a language name (default : [{default_name}]) ").strip() or default_name
+print("Language Name set to:", name)
+
 
 # Path to training data (images and ground truth files)
 TRAINING_DATA_DIR = os.path.realpath("training_data")
 MISC_DIR = os.path.join("C:\\Users\\mathi\\OneDrive\\Documents\\GitHub\\MINI_PROJET-IA\\training_data\\misc")
 OUTPUT_DIR = os.path.realpath("trained_data")  # Directory to store final traineddata file
-LANGUAGE = "mylang"  # Language name (can be anything, e.g., "mylang")
+LANGUAGE = name  # Language name (can be anything, e.g., "mylang")
 
 # Ensure directory exists
 def ensure_directory_exists(dir_path):

@@ -4,9 +4,9 @@ import os
 import shutil
 
 
-def create_training_data(font_name,num_image):
+def create_training_data(font_path,num_image):
     # Path to Seriffi Morgan Regular font file (.ttf or .otf)
-    FONT_PATH = f"fonts/{font_name}.ttf"  # Update this with your actual font path
+    FONT_PATH = font_path  # Update this with your actual font path
     OUTPUT_DIR = "training_data"
     NUM_IMAGES = num_image  # Number of training samples
     TEXT_LENGTH = 25  # Characters per image
@@ -50,7 +50,7 @@ def create_training_data(font_name,num_image):
         with open(text_path, "w") as f:
             f.write(text)
 
-    print(f"Generated {NUM_IMAGES} training images with {font_name} font in {OUTPUT_DIR}/")
+    print(f"Generated {NUM_IMAGES} training images with {font_path} font in {OUTPUT_DIR}/")
 
 
 if __name__ == "__main__":

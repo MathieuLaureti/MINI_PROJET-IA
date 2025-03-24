@@ -27,7 +27,7 @@ Le système qui sera développé devra prendre en entrée une police de caractè
 
 - **Synthèse des travaux existants**: Comparez et contrastez votre approche avec les travaux précédents.
 - **Citations**: Référez-vous aux articles et publications pertinents.
-- 
+
 Dans la littérature, nous pouvons citer deux. Implémentations du OCR :
 
 + La première consistait à simplifier la documentation des transactions dans le commerce électronique @internationalconferenceonintelligencecomputingandinformationscienceIntelligentComputingInformation2011 . Le OCR servait à numériser les transactions sous format papier. Ainsi, il était plus facile de parcourir l'historique des transactions. Le modèle atteignait un score F1 de 0,7703 lors de ses tests  @internationalconferenceonintelligencecomputingandinformationscienceIntelligentComputingInformation2011 .
@@ -38,6 +38,10 @@ Dans la littérature, nous pouvons citer deux. Implémentations du OCR :
 - **Infrastructure**: Décrivez les outils et les ressources utilisés (bases de données, logiciels, etc.).
 - **Méthodes**: Expliquez les données et/ou algorithmes et techniques employés.
 - **Évaluation**: Décrivez comment vous avez mesuré le succès du système (précision, temps de traitement, etc.). 
+
+
+
+
 
 
 #### infrastructure
@@ -100,6 +104,95 @@ Les projets seront évalués selon les critères suivants :
 - **Résultats**: Qualité et analyse des résultats.
 - **Conclusion**: Pertinence des conclusions et propositions futures.
 - **Présentation orale**: Structure, organisation, cohérence et clarté de la présentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## amélioration
+
+
+
+
+Utiliser différents types de Background en arrière des lettres
+Utiliser différentes taille de polices d'écriture
+Utiliser les caractères français et de d'autres langues
+Signe de ponctuation
+Caractère spéciaux
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

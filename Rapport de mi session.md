@@ -76,20 +76,6 @@ Nous avons le choix de calculer ces données parmi différentes grandeurs textue
 
 
 
-### 4. Résultats
-
-- **Présentation des résultats**: Affichez les résultats obtenus sous forme de tableaux ou graphiques.
-- **Analyse**: Interprétez les résultats et discutez de leur signification.
-
-### 5. Conclusion
-
-
-
-
-
-
-
-
 
 
 

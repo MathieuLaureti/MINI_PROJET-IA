@@ -136,7 +136,7 @@ Caractère spéciaux
 
 
 
-
+https://tesseract-ocr.github.io/tessdoc/tess4/TrainingTesseract-4.00.html
 
 
 

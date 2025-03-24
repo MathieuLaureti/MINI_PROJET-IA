@@ -1,5 +1,11 @@
 
+
+https://github.com/MathieuLaureti/MINI_PROJET-IA
+
+
 Noms : Nicolas Tessier, Mathieu Laureti
+
+
 ## Composantes du Rapport de Projet
 
 ### 1. Définition de la Tâche

@@ -1,8 +1,12 @@
 import pytesseract
 
 from PIL import Image
+import difflib
 
+import difflib
 
+def align_texts(OCR_TEXT,TRUE_TEXT):
+    return OCR_TEXT,TRUE_TEXT
 def get_OCR_text(image_path):
     """
     Extracts text from an image using Tesseract OCR.
@@ -21,29 +25,11 @@ def get_OCR_text(image_path):
     
     return text
 
-def compare_words(OCR_TEXT,TRUE_TEXT):
-    """
-    Compares the OCR text to the true text and returns the number of words that match.
-    
-    Args:
-    - OCR_TEXT (str): The text extracted by OCR.
-    - TRUE_TEXT (str): The true text to compare against.
-    
-    Returns:
-    - int: The number of words that match between the two texts.
-    """
-    # Split the text into words
-    OCR_words = OCR_TEXT.split()
-    TRUE_words = TRUE_TEXT.split()
-    
-    # Count the number of matching words
-    match_count = 0
-    for word in OCR_words:
-        if word in TRUE_words:
-            match_count += 1
-    
-    return match_count
-
+def compare_words(OCR_WORDS,TRUE_WORDS):
+    print(len(OCR_WORDS),len(TRUE_WORDS))
+    for i in range(max(len(OCR_WORDS),len(TRUE_WORDS))):
+        print(i,OCR_WORDS[i],TRUE_WORDS[i])	
+        
 def EXTRACT_TRUE_TEXT():
     file_path = r"C:\Users\mathi\OneDrive\Documents\GitHub\MINI_PROJET-IA\test_case_text.txt"
 
@@ -57,9 +43,11 @@ def EXTRACT_TRUE_TEXT():
 def OCR_TEST(name):
     path = f"test_cases\\{name}.png"
     text = get_OCR_text(path)
-    print(text)
+    return text.split()
 
 if __name__ == "__main__":
+    aligned_true, aligned_ocr = align_texts(OCR_TEST("Pacifico"),EXTRACT_TRUE_TEXT())
+    compare_words(aligned_true, aligned_ocr)
     OCR_TEST("Pacifico")
     print(EXTRACT_TRUE_TEXT())
     

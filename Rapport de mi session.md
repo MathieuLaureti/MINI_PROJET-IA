@@ -1,14 +1,17 @@
 
 
+https://github.com/MathieuLaureti/MINI_PROJET-IA
+
+
+Noms : Nicolas Tessier, Mathieu Laureti
+
+
 ## Composantes du Rapport de Projet
 
 ### 1. Définition de la Tâche
 
 
 
-- **Description de la tâche**: Expliquez ce que fait votre système (entrée et sortie).
-- **Délimitation**: Assurez-vous que la tâche n'est ni trop large ni trop étroite.
-- **Pertinence IA**: Justifiez l'utilisation de l'intelligence artificielle pour cette tâche.
 
 #### **Description de la tâche**: Expliquez ce que fait votre système (entrée et sortie).
 
@@ -25,19 +28,14 @@ Le système qui sera développé devra prendre en entrée une police de caractè
 
 ### 2. Brève Revue de la Littérature
 
-- **Synthèse des travaux existants**: Comparez et contrastez votre approche avec les travaux précédents.
-- **Citations**: Référez-vous aux articles et publications pertinents.
 
 Dans la littérature, nous pouvons citer deux. Implémentations du OCR :
 
-+ La première consistait à simplifier la documentation des transactions dans le commerce électronique @internationalconferenceonintelligencecomputingandinformationscienceIntelligentComputingInformation2011 . Le OCR servait à numériser les transactions sous format papier. Ainsi, il était plus facile de parcourir l'historique des transactions. Le modèle atteignait un score F1 de 0,7703 lors de ses tests  @internationalconferenceonintelligencecomputingandinformationscienceIntelligentComputingInformation2011 .
-+ Le deuxième utilisait le OCR afin de lire des caractères sur des interfaces graphiques comme des boutons, des textes et des champs de texte @zhuOCRRCNNAccurateEfficient2022 . Ce modèle utilise un réseau de neurones dans sa méthode d'apprentissage @zhuOCRRCNNAccurateEfficient2022 . Il a été implémenter sur deux architectures. Soit l'architecture en cascade et l'architecture "bout-en-bout".  Ce modèle a eu un score F1 de 94% @zhuOCRRCNNAccurateEfficient2022 .
++ La première consistait à simplifier la documentation des transactions dans le commerce électronique . Le OCR servait à numériser les transactions sous format papier. Ainsi, il était plus facile de parcourir l'historique des transactions. Le modèle atteignait un score F1 de 0,7703 lors de ses tests  
++ Le deuxième utilisait le OCR afin de lire des caractères sur des interfaces graphiques comme des boutons, des textes et des champs de texte. Ce modèle utilise un réseau de neurones dans sa méthode d'apprentissage. Il a été implémenter sur deux architectures. Soit l'architecture en cascade et l'architecture "bout-en-bout".  Ce modèle a eu un score F1 de 94% 
 
 ### 3. Matériel et Méthodes
 
-- **Infrastructure**: Décrivez les outils et les ressources utilisés (bases de données, logiciels, etc.).
-- **Méthodes**: Expliquez les données et/ou algorithmes et techniques employés.
-- **Évaluation**: Décrivez comment vous avez mesuré le succès du système (précision, temps de traitement, etc.). 
 
 
 
@@ -78,32 +76,6 @@ Nous avons le choix de calculer ces données parmi différentes grandeurs textue
 
 
 
-### 4. Résultats
-
-- **Présentation des résultats**: Affichez les résultats obtenus sous forme de tableaux ou graphiques.
-- **Analyse**: Interprétez les résultats et discutez de leur signification.
-
-### 5. Conclusion
-
-- **Résumé des résultats**: Faites un résumé des principales découvertes.
-- **Perspectives**: Proposez des pistes pour améliorer le système ou pour des travaux futurs.
-
-## Directives Générales
-
-- **Originalité**: Chaque projet doit être unique et innovant.
-- **Collaboration**: Travaillez en équipe et partagez les tâches de manière équitable.
-- **Documentation**: Documentez chaque étape du projet de manière claire et détaillée.
-
-## Évaluation
-
-Les projets seront évalués selon les critères suivants :
-
-- **Définition de la tâche**: Clarté et pertinence.
-- **Revue de la littérature**: Pertinence et qualité des références.
-- **Méthodes**: Adéquation et justesse des techniques employées.
-- **Résultats**: Qualité et analyse des résultats.
-- **Conclusion**: Pertinence des conclusions et propositions futures.
-- **Présentation orale**: Structure, organisation, cohérence et clarté de la présentation.
 
 
 
@@ -111,32 +83,6 @@ Les projets seront évalués selon les critères suivants :
 
 
 
-
-
-
-
-
-
-## amélioration
-
-
-
-
-Utiliser différents types de Background en arrière des lettres
-Utiliser différentes taille de polices d'écriture
-Utiliser les caractères français et de d'autres langues
-Signe de ponctuation
-Caractère spéciaux
-
-
-
-
-
-
-
-
-
-https://tesseract-ocr.github.io/tessdoc/tess4/TrainingTesseract-4.00.html
 
 
 

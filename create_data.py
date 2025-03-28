@@ -5,7 +5,6 @@ import shutil
 
 
 def create_training_data(font_path,num_image):
-    # Path to Seriffi Morgan Regular font file (.ttf or .otf)
     FONT_PATH = font_path  # Update this with your actual font path
     OUTPUT_DIR = "training_data"
     NUM_IMAGES = num_image  # Number of training samples
@@ -51,7 +50,3 @@ def create_training_data(font_path,num_image):
             f.write(text)
 
     print(f"Generated {NUM_IMAGES} training images with {font_path} font in {OUTPUT_DIR}/")
-
-
-if __name__ == "__main__":
-    create_training_data("Roboto",100)  # Change font name and number of images as needed

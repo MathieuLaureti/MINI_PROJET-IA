@@ -5,11 +5,11 @@
 ### 1. Définition de la Tâche
 
 
-
+%%
 - **Description de la tâche**: Expliquez ce que fait votre système (entrée et sortie).
 - **Délimitation**: Assurez-vous que la tâche n'est ni trop large ni trop étroite.
 - **Pertinence IA**: Justifiez l'utilisation de l'intelligence artificielle pour cette tâche.
-
+%%
 #### **Description de la tâche**: Expliquez ce que fait votre système (entrée et sortie).
 
 Le système qui sera développé devra prendre en entrée une police de caractère ainsi qu'une image textuel ayant cette même police de caractère. Après traitement, Elle retournera une chaîne de caractère correspondant au texte donner en entrée sous forme imagée. Le modèle doit constamment apprendre de nouvelles polices de caractère. Elle doit s'adapter aux nouvelles polices de caractères utilisées et nommer par l'utilisateur.
@@ -24,22 +24,22 @@ Le système qui sera développé devra prendre en entrée une police de caractè
 
 
 ### 2. Brève Revue de la Littérature
-
+%%
 - **Synthèse des travaux existants**: Comparez et contrastez votre approche avec les travaux précédents.
 - **Citations**: Référez-vous aux articles et publications pertinents.
-
+%%
 Dans la littérature, nous pouvons citer deux. Implémentations du OCR :
 
 + La première consistait à simplifier la documentation des transactions dans le commerce électronique @internationalconferenceonintelligencecomputingandinformationscienceIntelligentComputingInformation2011 . Le OCR servait à numériser les transactions sous format papier. Ainsi, il était plus facile de parcourir l'historique des transactions. Le modèle atteignait un score F1 de 0,7703 lors de ses tests  @internationalconferenceonintelligencecomputingandinformationscienceIntelligentComputingInformation2011 .
 + Le deuxième utilisait le OCR afin de lire des caractères sur des interfaces graphiques comme des boutons, des textes et des champs de texte @zhuOCRRCNNAccurateEfficient2022 . Ce modèle utilise un réseau de neurones dans sa méthode d'apprentissage @zhuOCRRCNNAccurateEfficient2022 . Il a été implémenter sur deux architectures. Soit l'architecture en cascade et l'architecture "bout-en-bout".  Ce modèle a eu un score F1 de 94% @zhuOCRRCNNAccurateEfficient2022 .
 
 ### 3. Matériel et Méthodes
-
+%%
 - **Infrastructure**: Décrivez les outils et les ressources utilisés (bases de données, logiciels, etc.).
 - **Méthodes**: Expliquez les données et/ou algorithmes et techniques employés.
 - **Évaluation**: Décrivez comment vous avez mesuré le succès du système (précision, temps de traitement, etc.). 
 
-
+%%
 
 
 
@@ -51,7 +51,7 @@ Nous utiliserons aussi un modèle de base conçu pour du OCR. Le modèle Tessera
 
 #### méthode
 
- Afin de parvenir à l'objectif mentionné plutôt, nous utiliserons les entrées de l'utilisateur afin de générer aléatoirement du contenu textuel imagée et structuré dans la police de caractère entrée par l'utilisateur. Les chaînes de caractère utilisées pour générer ces images seront aussi conservés. Ensuite, le modèle sera entraîné sur les images de manière supervisé. Les couples (images, chaînes de caractère) formeront dataset utiliser pour entraîner le modèle. Ensuite, le modèle sera testé sur le texte écris manuellement par l'utilisateur. 
+ Afin de parvenir à l'objectif mentionné plutôt, nous utiliserons les entrées de l'utilisateur afin de générer aléatoirement du contenu textuel imagée et structuré dans la police de caractère entrée par l'utilisateur. Les chaînes de caractère utilisées pour générer ces images seront aussi conservés. Pour les images textuelles, il sera utilisé plusieurs types de polices de caractères. Cela a pour objectif de donner une base plus solide sur différentes polices de caractères au modèle. Ensuite, le modèle sera entraîné sur les images de manière supervisé. Les couples (images, chaînes de caractère) formeront dataset utiliser pour entraîner le modèle. Ensuite, le modèle sera testé sur le texte écris manuellement par l'utilisateur. 
 
 De cette manière, nous assurons que le modèle s'entraîne de manière supervisé en requérant un minimum d'interaction avec l'utilisateur.
 
@@ -74,20 +74,58 @@ Nous avons le choix de calculer ces données parmi différentes grandeurs textue
 + Des phrases correctement reconnues
 
 
+Pour le bien de ce projet, il a été choisi d'utiliser deux mesures de grandeur : les mots et les caractères. Le score F1 sera calculé pour chaque combinaison entre les grandeur de mesure et les modèles. Les deux modèles étant tesseracT sans agrémentation et la version de tesseracT dans lequel nous y avons ajouté notre agrémentation. C'est-à-dire de l'entraînement supplémentaire. Nous obtiendrons ainsi quatre scores F1 à comparer. Deux scores F1 par modèle sur différentes échelles de mesure. Ainsi, il suffira de comparer, et de trouver le score F1 le plus élevé afin de déterminer le modèle le plus exact par rapport au contenu textuel sous forme de chaîne de caractère. C'est même chaîne de caractère qui nous serviront de valeur de référence pour les tests.
 
 
 
 
 ### 4. Résultats
 
+
+
+%%
 - **Présentation des résultats**: Affichez les résultats obtenus sous forme de tableaux ou graphiques.
 - **Analyse**: Interprétez les résultats et discutez de leur signification.
+%%
+
+
 
 ### 5. Conclusion
 
+
+
+%%
 - **Résumé des résultats**: Faites un résumé des principales découvertes.
 - **Perspectives**: Proposez des pistes pour améliorer le système ou pour des travaux futurs.
+%%
 
+
+#### Perspectives et amélioration
+
+
+%%
+Utiliser différents types de Background en arrière des lettres
+Utiliser différentes taille de polices d'écriture
+Utiliser les caractères français et de d'autres langues
+Signe de ponctuation
+Caractère spéciaux
+%%
+
+
+
+Plusieurs mesures peuvent être employés pour améliorer l'exactitude de notre modèle. 
+
+Il pourrait s'avérer nécessaire d'entraîner le modèle sur divers arrière-plan. Dans le cas de ce projet, les images textuelles avec toutes et chacune un arrière-plan complètement blanc. Certaines images textuelles pourrais avoir un arrière-plan d'une couleur différente. Il serait donc pertinent d'entraîner le modèle sur des arrière-plan diversifiées.
+
+Dans les données d'entraînement, l'ensemble des contenus textuel avait une taille de police identique. Dans la réalité d'un utilisateur du modèle, il se pourrait que son contenu textuel imagée soit de tête de police différente. Nous pouvons citer des exemples comme les citations, les notes dans la marge ainsi que les titres dans un texte. Entraîner le modèle sous différentes taille de police serait pertinent.
+
+Encore une fois, dans les données d'entraînement, l'ensemble des caractères proviennent de ceux qui sont permis dans la langue anglaise. cependant l'ensemble des utilisateurs de ce genre de modèle n'ont pas l'anglais comme langue maternelle. nous pouvons citer les langues asiatiques, telles que le japonais ou le mandarin qui possède leur propre ensemble de caractères. nous pouvons énumérer le nombre de caractères japonais au-dessus de 3000, alors que la langue anglaise ne possède que les lettres de l'alphabet. il serait donc pertinent d'entraîner le modèle sur l'ensemble des familles de caractère qui existe dans de multiples cultures et de multiples région du monde.
+
+Outre les caractères, il y a aussi l'ensemble des signes de ponctuation et des caractères spéciaux. La plupart du contenu textuel qui sera analysé par le modèle qui sera utilisé par l'utilisateur oran, une syntaxe nécessitant des signes de ponctuation et des caractères spéciaux. Au sein de nos données d'entraînement, il a été omis, dans son intégralité, l'existence de ces caractères. Pour ces raisons, il serait pertinent d'intégrer ses caractères spéciaux et ses signes de ponctuation à l'intérieur de nos données d'entraînement si le projet était à recommencer ou à poursuivre.
+
+
+
+%%
 ## Directives Générales
 
 - **Originalité**: Chaque projet doit être unique et innovant.
@@ -105,6 +143,7 @@ Les projets seront évalués selon les critères suivants :
 - **Conclusion**: Pertinence des conclusions et propositions futures.
 - **Présentation orale**: Structure, organisation, cohérence et clarté de la présentation.
 
+%%
 
 
 
@@ -113,20 +152,6 @@ Les projets seront évalués selon les critères suivants :
 
 
 
-
-
-
-
-## amélioration
-
-
-
-
-Utiliser différents types de Background en arrière des lettres
-Utiliser différentes taille de polices d'écriture
-Utiliser les caractères français et de d'autres langues
-Signe de ponctuation
-Caractère spéciaux
 
 
 

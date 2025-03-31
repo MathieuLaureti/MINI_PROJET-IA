@@ -45,6 +45,8 @@ Dans la littérature, nous pouvons citer deux. Implémentations du OCR :
 
 
 #### infrastructure
+
+
 Lors de ce projet, nous utiliserons le langage de programmation Python afin d'entraîner le modèle pour chaque police de caractère entrée par l'utilisateur. Ce langage de programmation est très utilisé pour ce qui est de l'intelligence artificielle de l'analyse de données et du machine Learning. Sa syntaxe est aussi très simpliste et très simple d'utilisation. 
 
 Nous utiliserons aussi un modèle de base conçu pour du OCR. Le modèle TesseracT est un modèle d'OCR qui est facile à agrémenter. Il est ainsi possible d'apprendre au modèle à mieux reconnaître certaines polices d'écriture. Nous utilisons ce modèle afin de comparer les solutions apporter par notre agrémentation. Nous utiliserons aussi des documents produits manuellement afin de tester le modèle de base et le modèle avec agrémentation.
@@ -77,6 +79,15 @@ Nous avons le choix de calculer ces données parmi différentes grandeurs textue
 Pour le bien de ce projet, il a été choisi d'utiliser deux mesures de grandeur : les mots et les caractères. Le score F1 sera calculé pour chaque combinaison entre les grandeur de mesure et les modèles. Les deux modèles étant tesseracT sans agrémentation et la version de tesseracT dans lequel nous y avons ajouté notre agrémentation. C'est-à-dire de l'entraînement supplémentaire. Nous obtiendrons ainsi quatre scores F1 à comparer. Deux scores F1 par modèle sur différentes échelles de mesure. Ainsi, il suffira de comparer, et de trouver le score F1 le plus élevé afin de déterminer le modèle le plus exact par rapport au contenu textuel sous forme de chaîne de caractère. C'est même chaîne de caractère qui nous serviront de valeur de référence pour les tests.
 
 
+// Mathieu, lis attentivement ces deux paragraphes puisse qu'il concernent quelque chose que tu as lu et cherché
+
+Cependant, au milieu du projet, il a été constaté que le score F1 ne serait pas le meilleur outil pour évaluer ce modèle.
+
+Effectivement, cette méthode est utilisée pour des modèles complets. Cette manière d'évaluer un modèle OCR est limité. Notamment parce qu'elle ne prend pas en compte la structure de la phrase, les mots manquants et l'image textuelle. Elle ne prend pas en compte les mots qui se ressemblent, elle calcule l'erreur par rapport à la chaîne des caractères en elle-même. S'il ne manque qu'un seul caractère, tous les suivants sont considérés comme étant mauvais, et donc une erreur. Cela augmente le taux d'erreur de manière artificielle. 
+
+Dans le cadre de ce projet, nous utiliserons une autre méthode d'évaluation. Nous utiliserons la méthode WER, CER et MER. Ces méthodes consiste simplement à mesurer le nombre de substituions qu'il faut effectuer sur une chaîne de caractère pour obtenir une chaîne de caractère de référence. Plus il faut faire de substitution, plus la chaîne de caractère est différente de celle de référence. Le taux d'erreur en est donc augmenté. Les différentes mesures respectivement ce taux de substitution sur les mot, les caractères et la chaîne de caractère en tant que tel. 
+
+Cette méthode d'évaluation est plus adaptée puisqu'elle tient en compte de la structure de la phrase. Elle ne divise pas la phrase au moment où il y a la première erreur. Ce qui rend le taux d'erreur plus pertinent pour un modèle de OCR. 
 
 
 ### 4. Résultats
@@ -124,6 +135,7 @@ Encore une fois, dans les données d'entraînement, l'ensemble des caractères p
 Outre les caractères, il y a aussi l'ensemble des signes de ponctuation et des caractères spéciaux. La plupart du contenu textuel qui sera analysé par le modèle qui sera utilisé par l'utilisateur oran, une syntaxe nécessitant des signes de ponctuation et des caractères spéciaux. Au sein de nos données d'entraînement, il a été omis, dans son intégralité, l'existence de ces caractères. Pour ces raisons, il serait pertinent d'intégrer ses caractères spéciaux et ses signes de ponctuation à l'intérieur de nos données d'entraînement si le projet était à recommencer ou à poursuivre.
 
 
+// ici, tu peux parler des situations que tu as rencontrées durant le développement Mathieu
 
 %%
 ## Directives Générales

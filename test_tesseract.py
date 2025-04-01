@@ -6,7 +6,7 @@ import difflib
 import time
 
 
-def get_OCR_text(image_path):
+def get_OCR_text(image_path,filename):
     """
     Extracts text from an image using Tesseract OCR.
     
@@ -19,10 +19,16 @@ def get_OCR_text(image_path):
     # Load the image from the specified file
     img = Image.open(image_path)
     
-    # Use Tesseract to do OCR on the image
-    text = pytesseract.image_to_string(img)
+    if not filename == -1:
+        # Use Tesseract to do OCR on the image
+        text = pytesseract.image_to_string(img,lang=f"{filename}")
     
-    return text
+        return text
+    else:
+        text = pytesseract.image_to_string(img,lang=f"eng")
+    
+        return text
+
 
 def remove_ponctuation(string):
     return string.replace(",", "").replace(".", "").strip()
@@ -34,86 +40,53 @@ def EXTRACT_TRUE_TEXT():
     lines = [line.strip() for line in lines]
     return lines
 
-def OCR_TEST(name,index):
+def OCR_TEST(name,index,filename):
     path = f"test_cases\\{name}\\case{index}.png"
-    text = get_OCR_text(path)
+    text = get_OCR_text(path,filename)
     if text == "":
         return -1
     return text
 
-def word_test(OCR,TRUTH):
-    OCR = OCR.split(" ")
-    TRUTH = TRUTH.split(" ")
-    char_missed = 0
-    correct_char = 0 
-    word_missed = 0
-    correct_word = 0
-
-    if len(OCR) == len(TRUTH):
-        for i in range(len(OCR)):
-            OCR_WORD = OCR[i]
-            TRUTH_WORD = TRUTH[i]
-            if OCR_WORD == TRUTH_WORD:
-                correct_word+=1
-                correct_char+=len(TRUTH_WORD)
-            else:
-                word_missed+=1
-                if len(OCR_WORD) == len(TRUTH_WORD):
-                    for i in range(len(TRUTH_WORD)):
-                        if OCR_WORD[i] == TRUTH_WORD[i]:
-                            correct_char+=1
-                        else:
-                            char_missed+=1
-                else:
-                    diff = abs(len(OCR_WORD) - len(TRUTH_WORD))
-                    char_missed+=diff
-                    for i in range(min(len(OCR_WORD),len(TRUTH_WORD))):
-                        if OCR_WORD[i] == TRUTH_WORD[i]:
-                            correct_char+=1
-                        else:
-                            char_missed+=1
-    else:
-        print(OCR,TRUTH)
-        for i in OCR:
-            i
-        return -1
-    
-    CER = char_missed/(char_missed+correct_char)
-
-    WER = word_missed/(word_missed+correct_word)
-
-    return ((CER,char_missed,correct_char),(WER,word_missed,correct_word))
-
-
 # Calculate WER (Word Error Rate)
-def calculate_wer(ocr, truth):
-    ocr_str = ' '.join(ocr).lower()  # Join words into a string and lowercase
-    truth_str = ' '.join(truth).lower()  # Same for ground truth
-    error_count = editdistance.eval(ocr_str.split(), truth_str.split())  # Calculate word-level errors
-    return error_count / len(truth), error_count, len(truth)
+def calculate_wer(ocr: str, truth: str):
+    ocr_words = ocr.lower().split()  # Convert to lowercase & split into words
+    truth_words = truth.lower().split()  # Same for ground truth
+    error_count = editdistance.eval(ocr_words, truth_words)  # Compute edit distance
+    return error_count / len(truth_words) if truth_words else 0, error_count, len(truth_words)
 
 # Calculate CER (Character Error Rate)
-def calculate_cer(ocr, truth):
-    ocr_str = ''.join(ocr).replace(' ', '')  # Join characters and remove spaces
-    truth_str = ''.join(truth).replace(' ', '')  # Same for ground truth
-    error_count = editdistance.eval(ocr_str, truth_str)  # Calculate character-level errors
-    return error_count / len(truth_str), error_count, len(truth_str)
+def calculate_cer(ocr: str, truth: str):
+    ocr_chars = ocr.replace(' ', '').lower()  # Remove spaces & normalize case
+    truth_chars = truth.replace(' ', '').lower()  # Same for ground truth
+    error_count = editdistance.eval(ocr_chars, truth_chars)  # Compute edit distance
+    return error_count / len(truth_chars) if truth_chars else 0, error_count, len(truth_chars)
+
+# Calculate MER (Match Error Rate) - Based on OCR output words instead of truth words
+def calculate_mer(ocr: str, truth: str):
+    ocr_words = ocr.lower().split()  # Normalize case & split words
+    truth_words = truth.lower().split()  # Same for ground truth
+    error_count = editdistance.eval(ocr_words, truth_words)  # Compute edit distance
+    return error_count / len(ocr_words) if ocr_words else 0, error_count, len(ocr_words)
 
 
 
-def test_all_cases_for(name):
+
+def test_all_cases_for(name,filename):
     TRUE_TEXT = EXTRACT_TRUE_TEXT()
     ans = []
     for i in range(15):
-        OCR_TEXT = OCR_TEST(name,i)
+        OCR_TEXT = OCR_TEST(name,i,filename)
         if OCR_TEXT == -1:
             continue
         else:
             truth = TRUE_TEXT[i]
-            test_results = word_test(remove_ponctuation(OCR_TEXT),remove_ponctuation(truth))
-            if not test_results == -1:
-                ans.append(test_results)
-                print(test_results)
+
+            CER_test_results = calculate_cer(remove_ponctuation(OCR_TEXT),remove_ponctuation(truth))
+            WER_test_results = calculate_wer(remove_ponctuation(OCR_TEXT),remove_ponctuation(truth))
+            MER_test_results = calculate_mer(remove_ponctuation(OCR_TEXT),remove_ponctuation(truth))
+            ans.append((CER_test_results,WER_test_results,MER_test_results))
+            print(CER_test_results,WER_test_results,MER_test_results)
+
     return ans
 
 
@@ -121,7 +94,12 @@ def test_all_cases_for(name):
 
 
 if __name__ == "__main__":
-    ans = test_all_cases_for("Pacifico")
+    ans = test_all_cases_for("Dancing","Dancing_100")
+    print("___________________________________________________________________________________________")
+    ans = test_all_cases_for("Dancing","Dancing_500")
+    print("___________________________________________________________________________________________")
+    ans = test_all_cases_for("Dancing",-1)
+
     
 
     

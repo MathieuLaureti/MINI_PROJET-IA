@@ -21,7 +21,7 @@ data_size = int(input("Enter the number of images to generate : "))
 
 font_name = os.path.splitext(os.path.basename(font_path))[0]
 
-default_name = f"{font_name}_{data_size}_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-1%S')}"
+default_name = f"{font_name}_{data_size}"
 name = input(f"Enter a language name (default : [{default_name}]) ").strip() or default_name
 print("Language Name set to:", name)
 

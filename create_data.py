@@ -2,8 +2,16 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import os
 import shutil
+from faker import Faker
 
 
+def generate_sentence_with_char_count(target_char_count):
+    fake = Faker()
+    sentence = ''
+    while len(sentence) < target_char_count:
+        sentence += ' ' + fake.sentence()
+
+    return sentence[:target_char_count]  # Truncate if exceeds target
 def create_training_data(font_path,num_image):
     FONT_PATH = font_path  # Update this with your actual font path
     OUTPUT_DIR = "training_data"
@@ -26,7 +34,7 @@ def create_training_data(font_path,num_image):
 
     for i in range(NUM_IMAGES):
         # Generate a random text sequence
-        text = ''.join(random.choices(CHARACTERS, k=TEXT_LENGTH))
+        text = generate_sentence_with_char_count(80)
 
         # Create a blank white image
         img = Image.new("L", (700, 100), color=255)  # Grayscale mode (L), white background
@@ -50,3 +58,5 @@ def create_training_data(font_path,num_image):
             f.write(text)
 
     print(f"Generated {NUM_IMAGES} training images with {font_path} font in {OUTPUT_DIR}/")
+
+#create_training_data("fonts\\Dancing.ttf",10)

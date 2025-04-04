@@ -10,8 +10,15 @@ def generate_sentence_with_char_count(target_char_count):
     sentence = ''
     while len(sentence) < target_char_count:
         sentence += ' ' + fake.sentence()
-
     return sentence[:target_char_count]  # Truncate if exceeds target
+
+def generate_random_string(length):
+    # Define the characters you want to use (letters and digits only)
+    characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    # Generate a random string of the specified length
+    random_string = ''.join(random.choice(characters) for _ in range(length))
+    return random_string
+
 def create_training_data(font_path,num_image):
     FONT_PATH = font_path  # Update this with your actual font path
     OUTPUT_DIR = "training_data"
@@ -34,14 +41,20 @@ def create_training_data(font_path,num_image):
 
     for i in range(NUM_IMAGES):
         # Generate a random text sequence
-        text = generate_sentence_with_char_count(80)
+        get_half_probs = random.choice([True,False])
+        if get_half_probs:
+            text = generate_sentence_with_char_count(80)
+        else:
+            text = generate_random_string(80)
+
 
         # Create a blank white image
-        img = Image.new("L", (700, 100), color=255)  # Grayscale mode (L), white background
+        #random size +/- 15% of the original size 
+        img = Image.new("L", (700,100), color=255)  # Grayscale mode (L), white background
         draw = ImageDraw.Draw(img)
 
         try:
-            font = ImageFont.truetype(FONT_PATH, 40)  # Adjust size as needed
+            font = ImageFont.truetype(FONT_PATH, 30)  # Adjust size as needed
         except IOError:
             print(f"Error: Could not load font at {FONT_PATH}")
             break

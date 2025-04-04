@@ -61,6 +61,6 @@ def creation_handler(name):
     create_test_case(f"fonts\\{name}.ttf",f"test_cases\\{name}")
 
 if __name__ == "__main__":
-    name = "Shadows"
+    name = "Roboto"
 
     creation_handler(name)

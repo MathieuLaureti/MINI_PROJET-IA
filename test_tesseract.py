@@ -85,6 +85,7 @@ def test_all_cases_for(name,filename):
             WER_test_results = calculate_wer(remove_ponctuation(OCR_TEXT),remove_ponctuation(truth))
             MER_test_results = calculate_mer(remove_ponctuation(OCR_TEXT),remove_ponctuation(truth))
             ans.append((CER_test_results,WER_test_results,MER_test_results))
+            #print(remove_ponctuation(OCR_TEXT),remove_ponctuation(truth))
             print(CER_test_results,WER_test_results,MER_test_results)
 
     return ans
@@ -94,11 +95,13 @@ def test_all_cases_for(name,filename):
 
 
 if __name__ == "__main__":
-    ans = test_all_cases_for("Dancing","Dancing_100")
+    ans = test_all_cases_for("Roboto","Roboto_500_5")
     print("___________________________________________________________________________________________")
-    ans = test_all_cases_for("Dancing","Dancing_500")
+    ans = test_all_cases_for("Roboto","Roboto_500")
     print("___________________________________________________________________________________________")
-    ans = test_all_cases_for("Dancing",-1)
+    ans = test_all_cases_for("Roboto","Roboto_100")
+    print("___________________________________________________________________________________________")
+    ans = test_all_cases_for("Roboto",-1)
 
     
 

@@ -1,0 +1,5 @@
+tesseract_training_Roboto_50\training/train_0
+tesseract_training_Roboto_50\training/train_1
+tesseract_training_Roboto_50\training/train_2
+tesseract_training_Roboto_50\training/train_3
+tesseract_training_Roboto_50\training/train_4

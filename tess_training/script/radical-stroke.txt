@@ -1,0 +1,7 @@
+# Minimal radical-stroke.txt file
+        # Format: Unicode radical stroke-count
+        # This is a minimal placeholder file
+        U+4E00 1 4
+        U+4E8C 2 2
+        U+4E09 3 3
+        

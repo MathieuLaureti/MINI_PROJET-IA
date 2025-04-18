@@ -22,21 +22,18 @@
             }
           },
           {
-            "id": "4a018c62e6b9c64c",
+            "id": "b96b53424b403d87",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Note présentation.md",
-                "mode": "source",
-                "source": false
+                "file": "Graphique.png"
               },
-              "icon": "lucide-file",
-              "title": "Note présentation"
+              "icon": "lucide-image",
+              "title": "Graphique"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +56,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -175,19 +172,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "4a018c62e6b9c64c",
+  "active": "3e1062f280f0764d",
   "lastOpenFiles": [
-    "Note présentation (conflicted).md",
-    "Note présentation.md.part",
+    "Graphique.png",
     "README.md",
-    "Note présentation.md"
+    "test_cases/Dancing/case3.png",
+    "test_cases/Dancing/case1.png",
+    "test_cases/Dancing/case0.png",
+    "Note.md",
+    "Note présentation.md",
+    "Note présentation (conflicted).md",
+    "Note présentation.md.part"
   ]
 }

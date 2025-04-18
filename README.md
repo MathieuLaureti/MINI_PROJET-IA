@@ -57,6 +57,14 @@ Nous utiliserons aussi un modèle de base conçu pour du OCR. Le modèle Tessera
 
 De cette manière, nous assurons que le modèle s'entraîne de manière supervisé en requérant un minimum d'interaction avec l'utilisateur.
 
+Il est important de générer des chaînes de caractère qui forment des phrases dans une certaine langue. Les programmes aussi sont normalement spécialisés dans une seule langue à la fois. C'est pour cela que chaque police de caractère sous forme de chaîne textuelle et d'image ont été écrit en anglais par souci de généralité. Ce sont toujours les mêmes chaînes de caractère qui sont transformées pour chaque police de caractère. Il a été aussi écrit une jeune de caractère comportant toutes les caractères permis afin de pouvoir entraîner le modèle sur chacun d'eux. Il se pourrait par exemple que le modèle ne soit jamais entraîné sur la lettre "X" puisque cette lettre est rare en anglais.
+
+Des fichiers "ttf" permettent aussi de faire référence à différentes polices de caractères, afin de créer les images sous forme textuelles. Ce sont ces fichiers qui définissent les polices de caractère
+
+Après la création de chaîne, de caractère sous forme d'image et sous forme textuelle, certains fichiers de référence pour la création du modèle ont été créé. notamment des fichiers de mapping, afin d'indiquer au modèle l'emplacement de chaque caractère. Des fichiers "traineddata" ont aussi été créé afin de pouvoir entraîner le modèle. 
+
+
+
 #### évaluation
 
 Le but de ce projet est de comparer le modèle avec notre agrémentation avec le modèle de base. Ainsi, il sera possible de mesurer le gain ou la perte de précision du modèle. Nous comparons ainsi les scores F1, du modèle de base et du modèle avec notre agrémentation. Un modèle avec un score F1 moins élevé et moins précis et vice-versa. Il suffit donc de trouver le modèle avec le score F1 le plus élevé.
@@ -100,6 +108,16 @@ Cette méthode d'évaluation est plus adaptée puisqu'elle tient en compte de la
 %%
 
 
+Ce graphique présente le CER en fonction du nombre itération de l'entraînement du modèle. on peut voir ici qu'il y a un coude qui se forme pour chacune des polices de caractère. Ainsi presque tous les modèles ont un niveau de précision CER acceptable. Seuls les modèles Bradley_Hand_ITC et Stencil ne semble pas avoir un coude acceptable. 
+
+![[Graphique.png]]
+La raison pour laquelle certaines polices d'écriture n'ont pas un coude acceptable est simplement le fait que ce sont des polices d'écriture qui sont très peu utilisées et moins lisible. Les caractères ont notamment des formes assez inhabituelle. Ce sont des police de caractère qui se rapproche beaucoup plus des lettres attachées que de véritables caractères écrit par un ordinateur.
+
+Cependant puisque les autres polices de caractère sont des polices qui sont beaucoup plus semblables à des polices de caractère écrites par un ordinateur et que les caractères sont bien définis et séparés les uns des autres, le modèle a tendance à beaucoup mieux les reconnaître.
+
+L'objectif est en quelque sorte accomplie, puisque le modèle sera utilisé pour reconnaître des polices de caractères écrites à l'ordinateur et non de façon manuscrite par un être humain. 
+
+L'utilisation de ce modèle aussi pourra être utilisé dans l'industrie si plus développé.
 
 ### 5. Conclusion
 
@@ -136,6 +154,10 @@ Outre les caractères, il y a aussi l'ensemble des signes de ponctuation et des 
 
 
 // ici, tu peux parler des situations que tu as rencontrées durant le développement Mathieu
+
+
+
+
 
 %%
 ## Directives Générales
@@ -182,6 +204,16 @@ https://tesseract-ocr.github.io/tessdoc/tess4/TrainingTesseract-4.00.html
 
 https://docs.kolena.com/metrics/wer-cer-mer/
 
+
+https://github.com/tesseract-ocr/tesstrain
+
+
+
+
+
+
+Sens de lecture
+Radical_stroke.txt : mapper symboles asiatiques caractère spéciaux
 
 
 

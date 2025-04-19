@@ -89,13 +89,9 @@ Pour le bien de ce projet, il a été choisi d'utiliser deux mesures de grandeur
 
 // Mathieu, lis attentivement ces deux paragraphes puisse qu'il concernent quelque chose que tu as lu et cherché
 
-Cependant, au milieu du projet, il a été constaté que le score F1 ne serait pas le meilleur outil pour évaluer ce modèle.
+Nous avions initialement envisagé d’évaluer les performances de notre modèle à l’aide du F1-score, un indicateur couramment utilisé en classification. Cependant, nous nous sommes rapidement rendu compte que ce choix n’était pas le plus adapté au contexte spécifique de la reconnaissance de texte. En effet, le F1-score repose sur une comparaison binaire entre des classes prédéfinies, ce qui ne permet pas de capturer avec précision les erreurs au niveau des caractères ou des mots. Par exemple, si le modèle prédit **"bongour"** au lieu de **"bonjour"**, il s’agit d’une erreur mineure en OCR, le mot reste lisible et très proche du mot attendu, mais cela serait considéré comme entièrement faux avec un F1-score, ce qui ne reflète pas fidèlement la qualité de la prédiction.
 
-Effectivement, cette méthode est utilisée pour des modèles complets. Cette manière d'évaluer un modèle OCR est limité. Notamment parce qu'elle ne prend pas en compte la structure de la phrase, les mots manquants et l'image textuelle. Elle ne prend pas en compte les mots qui se ressemblent, elle calcule l'erreur par rapport à la chaîne des caractères en elle-même. S'il ne manque qu'un seul caractère, tous les suivants sont considérés comme étant mauvais, et donc une erreur. Cela augmente le taux d'erreur de manière artificielle. 
-
-Dans le cadre de ce projet, nous utiliserons une autre méthode d'évaluation. Nous utiliserons la méthode WER, CER et MER. Ces méthodes consiste simplement à mesurer le nombre de substituions qu'il faut effectuer sur une chaîne de caractère pour obtenir une chaîne de caractère de référence. Plus il faut faire de substitution, plus la chaîne de caractère est différente de celle de référence. Le taux d'erreur en est donc augmenté. Les différentes mesures respectivement ce taux de substitution sur les mot, les caractères et la chaîne de caractère en tant que tel. 
-
-Cette méthode d'évaluation est plus adaptée puisqu'elle tient en compte de la structure de la phrase. Elle ne divise pas la phrase au moment où il y a la première erreur. Ce qui rend le taux d'erreur plus pertinent pour un modèle de OCR. 
+Pour cette raison, nous avons opté pour deux métriques beaucoup plus pertinentes dans le domaine de l’OCR : le **CER (Character Error Rate)** et le **WER (Word Error Rate)**. Ces mesures sont issues du domaine de la reconnaissance vocale et sont désormais largement utilisées pour évaluer la précision des systèmes de transcription automatique. Le **CER** mesure le taux d’erreur au niveau des **caractères** en calculant la distance de Levenshtein entre le texte prédit et le texte de référence, c’est-à-dire le nombre minimum d’opérations (insertions, suppressions ou substitutions) nécessaires pour transformer l’un en l’autre, divisé par le nombre total de caractères attendus. De même, le **WER** applique ce même principe, mais au niveau des **mots**. Ces métriques permettent donc de quantifier précisément à quel point une prédiction est proche du texte correct, même en cas d’erreurs partielles, et donnent une évaluation beaucoup plus nuancée et représentative des performances réelles d’un modèle OCR.
 
 
 ### 4. Résultats
@@ -205,7 +201,7 @@ https://tesseract-ocr.github.io/tessdoc/tess4/TrainingTesseract-4.00.html
 https://docs.kolena.com/metrics/wer-cer-mer/
 
 
-https://github.com/tesseract-ocr/tesstrain
+TESSTRAIN https://github.com/tesseract-ocr/tesstrain
 
 
 

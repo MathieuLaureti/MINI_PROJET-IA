@@ -1,0 +1,208 @@
+2Loaded file data/eng/Brush_Script_MT_Italic.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 111 to 111!
+Num (Extended) outputs,weights in Series:
+  1,36,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  TxyLfys64:64, 20736
+  Lfx96:96, 61824
+  RxLrx96:96, 74112
+  Lfx512:512, 1247232
+  Fc111:111, 56943
+Total weights = 1461007
+Previous null char=110 mapped to 110
+Continuing from data/eng/Brush_Script_MT_Italic.lstm
+2 Percent improvement time=100, best error was 100 @ 0
+At iteration 100/100/100, mean rms=3.718%, delta=11.017%, BCER train=75.119%, BWER train=99.576%, skip ratio=0.000%, New best BCER = 75.119 wrote checkpoint.
+2 Percent improvement time=100, best error was 75.119 @ 100
+At iteration 200/200/200, mean rms=3.624%, delta=10.233%, BCER train=70.066%, BWER train=98.474%, skip ratio=0.000%, New best BCER = 70.066 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_70.066_200_200.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 70.066 @ 200
+At iteration 300/300/300, mean rms=3.540%, delta=9.708%, BCER train=65.812%, BWER train=97.165%, skip ratio=0.000%, New best BCER = 65.812 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_65.812_300_300.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 65.812 @ 300
+At iteration 400/400/400, mean rms=3.467%, delta=9.246%, BCER train=62.714%, BWER train=96.220%, skip ratio=0.000%, New best BCER = 62.714 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_62.714_400_400.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 62.714 @ 400
+At iteration 500/500/500, mean rms=3.393%, delta=8.713%, BCER train=60.289%, BWER train=95.647%, skip ratio=0.000%, New best BCER = 60.289 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_60.289_500_500.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 60.289 @ 500
+At iteration 600/600/600, mean rms=3.320%, delta=8.274%, BCER train=58.166%, BWER train=94.999%, skip ratio=0.000%, New best BCER = 58.166 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_58.166_600_600.checkpoint wrote checkpoint.
+2 Percent improvement time=199, best error was 60.289 @ 500
+At iteration 699/700/700, mean rms=3.251%, delta=7.856%, BCER train=56.245%, BWER train=94.173%, skip ratio=0.000%, New best BCER = 56.245 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_56.245_699_700.checkpoint wrote checkpoint.
+2 Percent improvement time=199, best error was 58.166 @ 600
+At iteration 799/800/800, mean rms=3.190%, delta=7.543%, BCER train=54.664%, BWER train=93.133%, skip ratio=0.000%, New best BCER = 54.664 wrote checkpoint.
+2 Percent improvement time=198, best error was 56.245 @ 699
+At iteration 897/900/900, mean rms=3.135%, delta=7.267%, BCER train=53.284%, BWER train=92.262%, skip ratio=0.000%, New best BCER = 53.284 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_53.284_897_900.checkpoint wrote checkpoint.
+2 Percent improvement time=194, best error was 54.664 @ 799
+At iteration 993/1000/1000, mean rms=3.085%, delta=7.007%, BCER train=52.071%, BWER train=91.315%, skip ratio=0.000%, New best BCER = 52.071 wrote checkpoint.
+2 Percent improvement time=94, best error was 52.071 @ 993
+At iteration 1087/1100/1100, mean rms=2.973%, delta=6.367%, BCER train=48.524%, BWER train=89.541%, skip ratio=0.000%, New best BCER = 48.524 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_48.524_1087_1100.checkpoint wrote checkpoint.
+2 Percent improvement time=96, best error was 48.524 @ 1087
+At iteration 1183/1200/1200, mean rms=2.878%, delta=5.859%, BCER train=46.014%, BWER train=88.037%, skip ratio=0.000%, New best BCER = 46.014 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_46.014_1183_1200.checkpointLoaded file data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_checkpoint, unpacking...
+Successfully restored trainer from data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_checkpoint
+2 Percent improvement time=194, best error was 48.524 @ 1087
+At iteration 1281/1300/1300, mean rms=2.793%, delta=5.447%, BCER train=44.156%, BWER train=86.957%, skip ratio=0.000%, New best BCER = 44.156 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_44.156_1281_1300.checkpoint wrote checkpoint.
+2 Percent improvement time=193, best error was 46.014 @ 1183
+At iteration 1376/1400/1400, mean rms=2.717%, delta=5.123%, BCER train=42.467%, BWER train=85.962%, skip ratio=0.000%, New best BCER = 42.467 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_42.467_1376_1400.checkpoint wrote checkpoint.
+2 Percent improvement time=186, best error was 44.156 @ 1281
+At iteration 1467/1500/1500, mean rms=2.648%, delta=4.860%, BCER train=41.232%, BWER train=85.041%, skip ratio=0.000%, New best BCER = 41.232 wrote checkpoint.
+2 Percent improvement time=186, best error was 42.467 @ 1376
+At iteration 1562/1600/1600, mean rms=2.597%, delta=4.702%, BCER train=40.227%, BWER train=83.744%, skip ratio=0.000%, New best BCER = 40.227 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_40.227_1562_1600.checkpoint wrote checkpoint.
+2 Percent improvement time=277, best error was 42.467 @ 1376
+At iteration 1653/1700/1700, mean rms=2.553%, delta=4.587%, BCER train=39.460%, BWER train=83.009%, skip ratio=0.000%, New best BCER = 39.460 wrote checkpoint.
+2 Percent improvement time=276, best error was 41.232 @ 1467
+At iteration 1743/1800/1800, mean rms=2.506%, delta=4.447%, BCER train=38.491%, BWER train=82.407%, skip ratio=0.000%, New best BCER = 38.491 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_38.491_1743_1800.checkpoint wrote checkpoint.
+2 Percent improvement time=268, best error was 40.227 @ 1562
+At iteration 1830/1900/1900, mean rms=2.467%, delta=4.351%, BCER train=37.758%, BWER train=81.652%, skip ratio=0.000%, New best BCER = 37.758 wrote checkpoint.
+2 Percent improvement time=265, best error was 39.46 @ 1653
+At iteration 1918/2000/2000, mean rms=2.424%, delta=4.276%, BCER train=36.979%, BWER train=81.110%, skip ratio=0.000%, New best BCER = 36.979 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_36.979_1918_2000.checkpoint wrote checkpoint.
+2 Percent improvement time=260, best error was 38.491 @ 1743
+At iteration 2003/2100/2100, mean rms=2.379%, delta=4.174%, BCER train=36.069%, BWER train=80.493%, skip ratio=0.000%, New best BCER = 36.069 wrote checkpoint.
+2 Percent improvement time=261, best error was 37.758 @ 1830
+At iteration 2091/2200/2200, mean rms=2.348%, delta=4.164%, BCER train=35.238%, BWER train=79.859%, skip ratio=0.000%, New best BCER = 35.238 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_35.238_2091_2200.checkpoint wrote checkpoint.
+2 Percent improvement time=261, best error was 36.979 @ 1918
+At iteration 2179/2300/2300, mean rms=2.307%, delta=4.037%, BCER train=34.358%, BWER train=78.949%, skip ratio=0.000%, New best BCER = 34.358 wrote checkpoint.
+2 Percent improvement time=262, best error was 36.069 @ 2003
+At iteration 2265/2400/2400, mean rms=2.270%, delta=3.918%, BCER train=33.629%, BWER train=78.224%, skip ratio=0.000%, New best BCER = 33.629 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_33.629_2265_2400.checkpoint wrote checkpoint.
+2 Percent improvement time=258, best error was 35.238 @ 2091
+At iteration 2349/2500/2500, mean rms=2.240%, delta=3.912%, BCER train=32.799%, BWER train=77.452%, skip ratio=0.000%, New best BCER = 32.799 wrote checkpoint.
+2 Percent improvement time=251, best error was 34.358 @ 2179
+At iteration 2430/2600/2600, mean rms=2.202%, delta=3.842%, BCER train=31.995%, BWER train=77.211%, skip ratio=0.000%, New best BCER = 31.995 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_31.995_2430_2600.checkpoint wrote checkpoint.
+2 Percent improvement time=255, best error was 33.629 @ 2265
+At iteration 2520/2700/2700, mean rms=2.178%, delta=3.787%, BCER train=31.174%, BWER train=76.618%, skip ratio=0.000%, New best BCER = 31.174 wrote checkpoint.
+2 Percent improvement time=251, best error was 32.799 @ 2349
+At iteration 2600/2800/2800, mean rms=2.146%, delta=3.715%, BCER train=30.472%, BWER train=75.944%, skip ratio=0.000%, New best BCER = 30.472 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_30.472_2600_2800.checkpoint wrote checkpoint.
+2 Percent improvement time=245, best error was 31.995 @ 2430
+At iteration 2675/2900/2900, mean rms=2.115%, delta=3.625%, BCER train=29.776%, BWER train=75.646%, skip ratio=0.000%, New best BCER = 29.776 wrote checkpoint.
+2 Percent improvement time=332, best error was 31.995 @ 2430
+At iteration 2762/3000/3000, mean rms=2.102%, delta=3.608%, BCER train=29.229%, BWER train=75.289%, skip ratio=0.000%, New best BCER = 29.229 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_29.229_2762_3000.checkpoint wrote checkpoint.
+2 Percent improvement time=313, best error was 31.174 @ 2520
+At iteration 2833/3100/3100, mean rms=2.084%, delta=3.540%, BCER train=28.764%, BWER train=75.212%, skip ratio=0.000%, New best BCER = 28.764 wrote checkpoint.
+2 Percent improvement time=309, best error was 30.472 @ 2600
+At iteration 2909/3200/3200, mean rms=2.040%, delta=3.372%, BCER train=28.114%, BWER train=74.765%, skip ratio=0.000%, New best BCER = 28.114 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_28.114_2909_3200.checkpoint wrote checkpoint.
+2 Percent improvement time=302, best error was 29.776 @ 2675
+At iteration 2977/3300/3300, mean rms=2.007%, delta=3.289%, BCER train=27.622%, BWER train=74.459%, skip ratio=0.000%, New best BCER = 27.622 wrote checkpoint.
+2 Percent improvement time=284, best error was 29.229 @ 2762
+At iteration 3046/3400/3400, mean rms=1.976%, delta=3.190%, BCER train=27.200%, BWER train=74.016%, skip ratio=0.000%, New best BCER = 27.200 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_27.200_3046_3400.checkpoint wrote checkpoint.
+2 Percent improvement time=278, best error was 28.764 @ 2833
+At iteration 3111/3500/3500, mean rms=1.936%, delta=3.005%, BCER train=26.537%, BWER train=73.639%, skip ratio=0.000%, New best BCER = 26.537 wrote checkpoint.
+2 Percent improvement time=274, best error was 28.114 @ 2909
+At iteration 3183/3600/3600, mean rms=1.901%, delta=2.862%, BCER train=25.906%, BWER train=73.105%, skip ratio=0.000%, New best BCER = 25.906 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_25.906_3183_3600.checkpoint wrote checkpoint.
+2 Percent improvement time=265, best error was 27.622 @ 2977
+At iteration 3242/3700/3700, mean rms=1.855%, delta=2.685%, BCER train=25.395%, BWER train=72.618%, skip ratio=0.000%, New best BCER = 25.395 wrote checkpoint.
+2 Percent improvement time=261, best error was 27.2 @ 3046
+At iteration 3307/3800/3800, mean rms=1.822%, delta=2.543%, BCER train=24.945%, BWER train=72.192%, skip ratio=0.000%, New best BCER = 24.945 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_24.945_3307_3800.checkpoint wrote checkpoint.
+2 Percent improvement time=257, best error was 26.537 @ 3111
+At iteration 3368/3900/3900, mean rms=1.788%, delta=2.439%, BCER train=24.355%, BWER train=71.611%, skip ratio=0.000%, New best BCER = 24.355 wrote checkpoint.
+2 Percent improvement time=242, best error was 25.906 @ 3183
+At iteration 3425/4000/4000, mean rms=1.738%, delta=2.255%, BCER train=23.779%, BWER train=70.994%, skip ratio=0.000%, New best BCER = 23.779 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_23.779_3425_4000.checkpoint wrote checkpoint.
+2 Percent improvement time=244, best error was 25.395 @ 3242
+At iteration 3486/4100/4100, mean rms=1.699%, delta=2.139%, BCER train=23.347%, BWER train=70.046%, skip ratio=0.000%, New best BCER = 23.347 wrote checkpoint.
+2 Percent improvement time=226, best error was 24.945 @ 3307
+At iteration 3533/4200/4200, mean rms=1.664%, delta=2.027%, BCER train=22.898%, BWER train=69.426%, skip ratio=0.000%, New best BCER = 22.898 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_22.898_3533_4200.checkpoint wrote checkpoint.
+2 Percent improvement time=273, best error was 24.945 @ 3307
+At iteration 3580/4300/4300, mean rms=1.627%, delta=1.908%, BCER train=22.461%, BWER train=68.652%, skip ratio=0.000%, New best BCER = 22.461 wrote checkpoint.
+2 Percent improvement time=257, best error was 24.355 @ 3368
+At iteration 3625/4400/4400, mean rms=1.587%, delta=1.788%, BCER train=22.008%, BWER train=67.849%, skip ratio=0.000%, New best BCER = 22.008 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_22.008_3625_4400.checkpoint wrote checkpoint.
+2 Percent improvement time=244, best error was 23.779 @ 3425
+At iteration 3669/4500/4500, mean rms=1.559%, delta=1.718%, BCER train=21.738%, BWER train=67.030%, skip ratio=0.000%, New best BCER = 21.738 wrote checkpoint.
+2 Percent improvement time=221, best error was 23.347 @ 3486
+At iteration 3707/4600/4600, mean rms=1.520%, delta=1.592%, BCER train=21.228%, BWER train=66.067%, skip ratio=0.000%, New best BCER = 21.228 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_21.228_3707_4600.checkpoint wrote checkpoint.
+2 Percent improvement time=221, best error was 22.898 @ 3533
+At iteration 3754/4700/4700, mean rms=1.491%, delta=1.551%, BCER train=20.707%, BWER train=65.006%, skip ratio=0.000%, New best BCER = 20.707 wrote checkpoint.
+2 Percent improvement time=216, best error was 22.461 @ 3580
+At iteration 3796/4800/4800, mean rms=1.458%, delta=1.488%, BCER train=20.446%, BWER train=64.110%, skip ratio=0.000%, New best BCER = 20.446 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_20.446_3796_4800.checkpoint wrote checkpoint.
+2 Percent improvement time=250, best error was 22.461 @ 3580
+At iteration 3830/4900/4900, mean rms=1.422%, delta=1.369%, BCER train=20.047%, BWER train=63.228%, skip ratio=0.000%, New best BCER = 20.047 wrote checkpoint.
+2 Percent improvement time=246, best error was 22.008 @ 3625
+At iteration 3871/5000/5000, mean rms=1.395%, delta=1.294%, BCER train=19.746%, BWER train=62.804%, skip ratio=0.000%, New best BCER = 19.746 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_19.746_3871_5000.checkpoint wrote checkpoint.
+2 Percent improvement time=247, best error was 21.738 @ 3669
+At iteration 3916/5100/5100, mean rms=1.365%, delta=1.230%, BCER train=19.459%, BWER train=62.145%, skip ratio=0.000%, New best BCER = 19.459 wrote checkpoint.
+2 Percent improvement time=244, best error was 21.228 @ 3707
+At iteration 3951/5200/5200, mean rms=1.342%, delta=1.180%, BCER train=19.204%, BWER train=61.793%, skip ratio=0.000%, New best BCER = 19.204 wrote checkpoint.
+2 Percent improvement time=277, best error was 21.228 @ 3707
+At iteration 3984/5300/5300, mean rms=1.315%, delta=1.133%, BCER train=18.862%, BWER train=61.157%, skip ratio=0.000%, New best BCER = 18.862 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_18.862_3984_5300.checkpoint wrote checkpoint.
+2 Percent improvement time=260, best error was 20.707 @ 3754
+At iteration 4014/5400/5400, mean rms=1.287%, delta=1.077%, BCER train=18.457%, BWER train=60.356%, skip ratio=0.000%, New best BCER = 18.457 wrote checkpoint.
+2 Percent improvement time=247, best error was 20.446 @ 3796
+At iteration 4043/5500/5500, mean rms=1.251%, delta=0.993%, BCER train=18.051%, BWER train=59.681%, skip ratio=0.000%, New best BCER = 18.051 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_18.051_4043_5500.checkpoint wrote checkpoint.
+2 Percent improvement time=235, best error was 20.047 @ 3830
+At iteration 4065/5600/5600, mean rms=1.227%, delta=0.951%, BCER train=18.001%, BWER train=59.212%, skip ratio=0.000%, New best BCER = 18.001 wrote checkpoint.
+2 Percent improvement time=265, best error was 20.047 @ 3830
+At iteration 4095/5700/5700, mean rms=1.195%, delta=0.854%, BCER train=17.763%, BWER train=58.477%, skip ratio=0.000%, New best BCER = 17.763 wrote checkpoint.
+2 Percent improvement time=250, best error was 19.746 @ 3871
+At iteration 4121/5800/5800, mean rms=1.176%, delta=0.842%, BCER train=17.541%, BWER train=58.176%, skip ratio=0.000%, New best BCER = 17.541 wrote checkpoint.
+2 Percent improvement time=270, best error was 19.746 @ 3871
+At iteration 4141/5900/5900, mean rms=1.147%, delta=0.803%, BCER train=17.492%, BWER train=57.747%, skip ratio=0.000%, New best BCER = 17.492 wrote checkpoint.
+2 Percent improvement time=249, best error was 19.459 @ 3916
+At iteration 4165/6000/6000, mean rms=1.121%, delta=0.760%, BCER train=17.212%, BWER train=56.839%, skip ratio=0.000%, New best BCER = 17.212 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_17.212_4165_6000.checkpoint wrote checkpoint.
+2 Percent improvement time=237, best error was 19.204 @ 3951
+At iteration 4188/6100/6100, mean rms=1.089%, delta=0.712%, BCER train=16.968%, BWER train=56.312%, skip ratio=0.000%, New best BCER = 16.968 wrote checkpoint.
+2 Percent improvement time=224, best error was 18.862 @ 3984
+At iteration 4208/6200/6200, mean rms=1.061%, delta=0.667%, BCER train=16.751%, BWER train=55.394%, skip ratio=0.000%, New best BCER = 16.751 wrote checkpoint.
+2 Percent improvement time=239, best error was 18.862 @ 3984
+At iteration 4223/6300/6300, mean rms=1.040%, delta=0.616%, BCER train=16.629%, BWER train=54.904%, skip ratio=0.000%, New best BCER = 16.629 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_16.629_4223_6300.checkpoint wrote checkpoint.
+2 Percent improvement time=257, best error was 18.862 @ 3984
+At iteration 4241/6400/6400, mean rms=1.021%, delta=0.594%, BCER train=16.554%, BWER train=54.603%, skip ratio=0.000%, New best BCER = 16.554 wrote checkpoint.
+2 Percent improvement time=242, best error was 18.457 @ 4014
+At iteration 4256/6500/6500, mean rms=1.003%, delta=0.579%, BCER train=16.408%, BWER train=53.808%, skip ratio=0.000%, New best BCER = 16.408 wrote checkpoint.
+2 Percent improvement time=260, best error was 18.457 @ 4014
+At iteration 4274/6600/6600, mean rms=0.998%, delta=0.588%, BCER train=16.281%, BWER train=53.645%, skip ratio=0.000%, New best BCER = 16.281 wrote checkpoint.
+2 Percent improvement time=286, best error was 18.457 @ 4014
+At iteration 4300/6700/6700, mean rms=0.988%, delta=0.583%, BCER train=16.236%, BWER train=53.736%, skip ratio=0.000%, New best BCER = 16.236 wrote checkpoint.
+2 Percent improvement time=260, best error was 18.001 @ 4065
+At iteration 4325/6800/6800, mean rms=0.967%, delta=0.523%, BCER train=15.997%, BWER train=53.242%, skip ratio=0.000%, New best BCER = 15.997 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_15.997_4325_6800.checkpoint wrote checkpoint.
+2 Percent improvement time=244, best error was 17.763 @ 4095
+At iteration 4339/6900/6900, mean rms=0.947%, delta=0.492%, BCER train=15.727%, BWER train=52.744%, skip ratio=0.000%, New best BCER = 15.727 wrote checkpoint.
+At iteration 4353/7000/7000, mean rms=0.929%, delta=0.451%, BCER train=15.732%, BWER train=52.595%, skip ratio=0.000%, New worst BCER = 15.732 wrote checkpoint.
+2 Percent improvement time=276, best error was 17.763 @ 4095
+At iteration 4371/7100/7100, mean rms=0.920%, delta=0.425%, BCER train=15.590%, BWER train=52.302%, skip ratio=0.000%, New best BCER = 15.590 wrote checkpoint.
+2 Percent improvement time=293, best error was 17.763 @ 4095
+At iteration 4388/7200/7200, mean rms=0.907%, delta=0.411%, BCER train=15.582%, BWER train=52.275%, skip ratio=0.000%, New best BCER = 15.582 wrote checkpoint.
+2 Percent improvement time=270, best error was 17.492 @ 4141
+At iteration 4411/7300/7300, mean rms=0.905%, delta=0.461%, BCER train=15.471%, BWER train=52.013%, skip ratio=0.000%, New best BCER = 15.471 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_15.471_4411_7300.checkpoint wrote checkpoint.
+At iteration 4430/7400/7400, mean rms=0.905%, delta=0.500%, BCER train=15.509%, BWER train=51.796%, skip ratio=0.000%, New worst BCER = 15.509 wrote checkpoint.
+At iteration 4446/7500/7500, mean rms=0.901%, delta=0.501%, BCER train=15.487%, BWER train=51.960%, skip ratio=0.000%, New worst BCER = 15.487 wrote checkpoint.
+2 Percent improvement time=315, best error was 17.492 @ 4141
+At iteration 4456/7600/7600, mean rms=0.867%, delta=0.452%, BCER train=15.333%, BWER train=51.169%, skip ratio=0.000%, New best BCER = 15.333 wrote checkpoint.
+2 Percent improvement time=320, best error was 17.492 @ 4141
+At iteration 4461/7700/7700, mean rms=0.833%, delta=0.417%, BCER train=15.265%, BWER train=50.438%, skip ratio=0.000%, New best BCER = 15.265 wrote checkpoint.
+At iteration 4465/7800/7800, mean rms=0.806%, delta=0.378%, BCER train=15.289%, BWER train=50.237%, skip ratio=0.000%, New worst BCER = 15.289 wrote checkpoint.
+2 Percent improvement time=307, best error was 17.212 @ 4165
+At iteration 4472/7900/7900, mean rms=0.798%, delta=0.363%, BCER train=15.191%, BWER train=49.913%, skip ratio=0.000%, New best BCER = 15.191 wrote checkpoint.
+2 Percent improvement time=316, best error was 17.212 @ 4165
+At iteration 4481/8000/8000, mean rms=0.780%, delta=0.352%, BCER train=15.052%, BWER train=49.438%, skip ratio=0.000%, New best BCER = 15.052 wrote checkpoint.
+At iteration 4497/8100/8100, mean rms=0.778%, delta=0.367%, BCER train=15.111%, BWER train=49.573%, skip ratio=0.000%, New worst BCER = 15.111 wrote checkpoint.
+2 Percent improvement time=342, best error was 17.212 @ 4165
+At iteration 4507/8200/8200, mean rms=0.774%, delta=0.363%, BCER train=15.037%, BWER train=49.368%, skip ratio=0.000%, New best BCER = 15.037 wrote checkpoint.
+2 Percent improvement time=343, best error was 17.212 @ 4165
+At iteration 4508/8300/8300, mean rms=0.737%, delta=0.290%, BCER train=15.000%, BWER train=49.047%, skip ratio=0.000%, New best BCER = 15.000 wrote checkpoint.
+2 Percent improvement time=332, best error was 16.968 @ 4188
+At iteration 4520/8400/8400, mean rms=0.714%, delta=0.232%, BCER train=14.956%, BWER train=48.955%, skip ratio=0.000%, New best BCER = 14.956 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_14.956_4520_8400.checkpoint wrote checkpoint.
+At iteration 4536/8500/8500, mean rms=0.712%, delta=0.230%, BCER train=14.987%, BWER train=48.650%, skip ratio=0.000%, New worst BCER = 14.987 wrote checkpoint.
+At iteration 4540/8600/8600, mean rms=0.700%, delta=0.212%, BCER train=15.032%, BWER train=48.644%, skip ratio=0.000%, New worst BCER = 15.032 wrote checkpoint.
+2 Percent improvement time=356, best error was 16.968 @ 4188
+At iteration 4544/8700/8700, mean rms=0.696%, delta=0.207%, BCER train=14.922%, BWER train=48.475%, skip ratio=0.000%, New best BCER = 14.922 wrote checkpoint.
+2 Percent improvement time=358, best error was 16.968 @ 4188
+At iteration 4546/8800/8800, mean rms=0.687%, delta=0.208%, BCER train=14.869%, BWER train=48.218%, skip ratio=0.000%, New best BCER = 14.869 wrote checkpoint.
+At iteration 4548/8900/8900, mean rms=0.669%, delta=0.201%, BCER train=14.961%, BWER train=48.165%, skip ratio=0.000%, New worst BCER = 14.961 wrote checkpoint.
+At iteration 4553/9000/9000, mean rms=0.654%, delta=0.195%, BCER train=14.905%, BWER train=48.153%, skip ratio=0.000%, New worst BCER = 14.905 wrote checkpoint.
+2 Percent improvement time=376, best error was 16.968 @ 4188
+At iteration 4564/9100/9100, mean rms=0.640%, delta=0.180%, BCER train=14.794%, BWER train=47.817%, skip ratio=0.000%, New best BCER = 14.794 wrote checkpoint.
+2 Percent improvement time=381, best error was 16.968 @ 4188
+At iteration 4569/9200/9200, mean rms=0.632%, delta=0.162%, BCER train=14.770%, BWER train=47.596%, skip ratio=0.000%, New best BCER = 14.770 wrote checkpoint.
+At iteration 4580/9300/9300, mean rms=0.650%, delta=0.200%, BCER train=14.776%, BWER train=47.711%, skip ratio=0.000%, New worst BCER = 14.776 wrote checkpoint.
+2 Percent improvement time=364, best error was 16.629 @ 4223
+At iteration 4587/9400/9400, mean rms=0.642%, delta=0.191%, BCER train=14.625%, BWER train=47.545%, skip ratio=0.000%, New best BCER = 14.625 wrote checkpoint.
+2 Percent improvement time=372, best error was 16.629 @ 4223
+At iteration 4595/9500/9500, mean rms=0.624%, delta=0.183%, BCER train=14.561%, BWER train=47.359%, skip ratio=0.000%, New best BCER = 14.561 wrote checkpoint.
+2 Percent improvement time=363, best error was 16.554 @ 4241
+At iteration 4604/9600/9600, mean rms=0.626%, delta=0.192%, BCER train=14.466%, BWER train=47.305%, skip ratio=0.000%, New best BCER = 14.466 wrote best model:data/Brush_Script_MT_Italic/checkpoints/Brush_Script_MT_Italic_14.466_4604_9600.checkpoint wrote checkpoint.
+At iteration 4612/9700/9700, mean rms=0.630%, delta=0.222%, BCER train=14.544%, BWER train=47.644%, skip ratio=0.000%, New worst BCER = 14.544 wrote checkpoint.
+At iteration 4619/9800/9800, mean rms=0.632%, delta=0.230%, BCER train=14.506%, BWER train=47.605%, skip ratio=0.000%, New worst BCER = 14.506 wrote checkpoint.
+At iteration 4627/9900/9900, mean rms=0.633%, delta=0.241%, BCER train=14.483%, BWER train=47.656%, skip ratio=0.000%, New worst BCER = 14.483 wrote checkpoint.
+2 Percent improvement time=392, best error was 16.554 @ 4241
+At iteration 4633/10000/10000, mean rms=0.634%, delta=0.240%, BCER train=14.458%, BWER train=47.424%, skip ratio=0.000%, New best BCER = 14.458 wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 14.458

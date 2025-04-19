@@ -1,0 +1,218 @@
+Loaded file data/eng/Juice_ITC.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 111 to 111!
+Num (Extended) outputs,weights in Series:
+  1,36,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  TxyLfys64:64, 20736
+  Lfx96:96, 61824
+  RxLrx96:96, 74112
+  Lfx512:512, 1247232
+  Fc111:111, 56943
+Total weights = 1461007
+Previous null char=110 mapped to 110
+Continuing from data/eng/Juice_ITC.lstm
+2 Percent improvement time=100, best error was 100 @ 0
+At iteration 100/100/100, mean rms=5.677%, delta=38.075%, BCER train=96.398%, BWER train=100.000%, skip ratio=0.000%, New best BCER = 96.398 wrote checkpoint.
+2 Percent improvement time=200, best error was 100 @ 0
+At iteration 200/200/200, mean rms=5.552%, delta=36.229%, BCER train=95.595%, BWER train=99.955%, skip ratio=0.000%, New best BCER = 95.595 wrote checkpoint.
+2 Percent improvement time=300, best error was 100 @ 0
+At iteration 300/300/300, mean rms=5.402%, delta=33.675%, BCER train=94.974%, BWER train=99.709%, skip ratio=0.000%, New best BCER = 94.974 wrote checkpoint.
+2 Percent improvement time=300, best error was 96.398 @ 100
+At iteration 400/400/400, mean rms=5.259%, delta=31.690%, BCER train=93.875%, BWER train=99.636%, skip ratio=0.000%, New best BCER = 93.875 wrote checkpoint.
+2 Percent improvement time=200, best error was 94.974 @ 300
+At iteration 500/500/500, mean rms=5.050%, delta=28.915%, BCER train=92.138%, BWER train=99.341%, skip ratio=0.000%, New best BCER = 92.138 wrote checkpoint.
+2 Percent improvement time=198, best error was 93.875 @ 400
+At iteration 598/600/600, mean rms=4.832%, delta=26.008%, BCER train=90.281%, BWER train=98.916%, skip ratio=0.000%, New best BCER = 90.281 wrote checkpoint.
+2 Percent improvement time=100, best error was 90.281 @ 598
+At iteration 698/700/700, mean rms=4.650%, delta=23.501%, BCER train=87.680%, BWER train=98.419%, skip ratio=0.000%, New best BCER = 87.680 wrote checkpoint.
+2 Percent improvement time=100, best error was 87.68 @ 698
+At iteration 798/800/800, mean rms=4.509%, delta=21.607%, BCER train=85.398%, BWER train=98.030%, skip ratio=0.000%, New best BCER = 85.398 wrote checkpoint.
+2 Percent improvement time=200, best error was 87.68 @ 698
+At iteration 898/900/900, mean rms=4.406%, delta=20.295%, BCER train=83.518%, BWER train=97.620%, skip ratio=0.000%, New best BCER = 83.518 wrote checkpoint.
+2 Percent improvement time=200, best error was 85.398 @ 798
+At iteration 998/1000/1000, mean rms=4.321%, delta=19.340%, BCER train=81.717%, BWER train=97.270%, skip ratio=0.000%, New best BCER = 81.717 wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 81.717
+Loaded file data/Juice_ITC/checkpoints/Juice_ITC_checkpoint, unpacking...
+Successfully restored trainer from data/Juice_ITC/checkpoints/Juice_ITC_checkpoint
+2 Percent improvement time=100, best error was 81.717 @ 998
+At iteration 1098/1100/1100, mean rms=4.101%, delta=16.580%, BCER train=78.470%, BWER train=96.427%, skip ratio=0.000%, New best BCER = 78.470 wrote checkpoint.
+2 Percent improvement time=100, best error was 78.47 @ 1098
+At iteration 1198/1200/1200, mean rms=3.906%, delta=14.272%, BCER train=75.009%, BWER train=95.500%, skip ratio=0.000%, New best BCER = 75.009 wrote checkpoint.
+2 Percent improvement time=100, best error was 75.009 @ 1198
+At iteration 1298/1300/1300, mean rms=3.743%, delta=12.573%, BCER train=71.541%, BWER train=94.506%, skip ratio=0.000%, New best BCER = 71.541 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_71.541_1298_1300.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 71.541 @ 1298
+At iteration 1398/1400/1400, mean rms=3.599%, delta=11.156%, BCER train=67.919%, BWER train=93.383%, skip ratio=0.000%, New best BCER = 67.919 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_67.919_1398_1400.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 67.919 @ 1398
+At iteration 1498/1500/1500, mean rms=3.512%, delta=10.465%, BCER train=64.632%, BWER train=92.235%, skip ratio=0.000%, New best BCER = 64.632 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_64.632_1498_1500.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 64.632 @ 1498
+At iteration 1598/1600/1600, mean rms=3.468%, delta=10.358%, BCER train=61.692%, BWER train=90.998%, skip ratio=0.000%, New best BCER = 61.692 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_61.692_1598_1600.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 61.692 @ 1598
+At iteration 1698/1700/1700, mean rms=3.446%, delta=10.607%, BCER train=59.668%, BWER train=89.937%, skip ratio=0.000%, New best BCER = 59.668 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_59.668_1698_1700.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 59.668 @ 1698
+At iteration 1798/1800/1800, mean rms=3.422%, delta=10.849%, BCER train=57.655%, BWER train=88.654%, skip ratio=0.000%, New best BCER = 57.655 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_57.655_1798_1800.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 57.655 @ 1798
+At iteration 1898/1900/1900, mean rms=3.390%, delta=10.936%, BCER train=55.485%, BWER train=87.275%, skip ratio=0.000%, New best BCER = 55.485 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_55.485_1898_1900.checkpoint wrote checkpoint.
+2 Percent improvement time=200, best error was 57.655 @ 1798
+At iteration 1998/2000/2000, mean rms=3.354%, delta=10.877%, BCER train=53.557%, BWER train=85.577%, skip ratio=0.000%, New best BCER = 53.557 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_53.557_1998_2000.checkpoint wrote checkpoint.
+2 Percent improvement time=100, best error was 53.557 @ 1998
+At iteration 2098/2100/2100, mean rms=3.323%, delta=10.845%, BCER train=51.526%, BWER train=84.145%, skip ratio=0.000%, New best BCER = 51.526 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_51.526_2098_2100.checkpoint wrote checkpoint.
+2 Percent improvement time=200, best error was 53.557 @ 1998
+At iteration 2198/2200/2200, mean rms=3.284%, delta=10.656%, BCER train=49.846%, BWER train=82.665%, skip ratio=0.000%, New best BCER = 49.846 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_49.846_2198_2200.checkpoint wrote checkpoint.
+2 Percent improvement time=200, best error was 51.526 @ 2098
+At iteration 2298/2300/2300, mean rms=3.244%, delta=10.437%, BCER train=48.161%, BWER train=81.244%, skip ratio=0.000%, New best BCER = 48.161 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_48.161_2298_2300.checkpoint wrote checkpoint.
+2 Percent improvement time=199, best error was 49.846 @ 2198
+At iteration 2397/2400/2400, mean rms=3.210%, delta=10.198%, BCER train=46.880%, BWER train=79.785%, skip ratio=0.000%, New best BCER = 46.880 wrote checkpoint.
+2 Percent improvement time=199, best error was 48.161 @ 2298
+At iteration 2497/2500/2500, mean rms=3.171%, delta=9.977%, BCER train=45.680%, BWER train=78.452%, skip ratio=0.000%, New best BCER = 45.680 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_45.680_2497_2500.checkpoint wrote checkpoint.
+2 Percent improvement time=200, best error was 46.88 @ 2397
+At iteration 2597/2600/2600, mean rms=3.136%, delta=9.832%, BCER train=44.198%, BWER train=77.356%, skip ratio=0.000%, New best BCER = 44.198 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_44.198_2597_2600.checkpoint wrote checkpoint.
+2 Percent improvement time=199, best error was 45.68 @ 2497
+At iteration 2696/2700/2700, mean rms=3.091%, delta=9.587%, BCER train=42.701%, BWER train=75.785%, skip ratio=0.000%, New best BCER = 42.701 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_42.701_2696_2700.checkpoint wrote checkpoint.
+2 Percent improvement time=198, best error was 44.198 @ 2597
+At iteration 2795/2800/2800, mean rms=3.043%, delta=9.304%, BCER train=41.230%, BWER train=74.167%, skip ratio=0.000%, New best BCER = 41.230 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_41.230_2795_2800.checkpoint wrote checkpoint.
+2 Percent improvement time=196, best error was 42.701 @ 2696
+At iteration 2892/2900/2900, mean rms=2.999%, delta=9.023%, BCER train=39.958%, BWER train=72.784%, skip ratio=0.000%, New best BCER = 39.958 wrote checkpoint.
+2 Percent improvement time=196, best error was 41.23 @ 2795
+At iteration 2991/3000/3000, mean rms=2.957%, delta=8.795%, BCER train=38.672%, BWER train=71.602%, skip ratio=0.000%, New best BCER = 38.672 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_38.672_2991_3000.checkpoint wrote checkpoint.
+2 Percent improvement time=198, best error was 39.958 @ 2892
+At iteration 3090/3100/3100, mean rms=2.915%, delta=8.534%, BCER train=37.691%, BWER train=70.427%, skip ratio=0.000%, New best BCER = 37.691 wrote checkpoint.
+2 Percent improvement time=298, best error was 39.958 @ 2892
+At iteration 3190/3200/3200, mean rms=2.878%, delta=8.318%, BCER train=36.761%, BWER train=69.015%, skip ratio=0.000%, New best BCER = 36.761 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_36.761_3190_3200.checkpoint wrote checkpoint.
+2 Percent improvement time=295, best error was 38.672 @ 2991
+At iteration 3286/3300/3300, mean rms=2.841%, delta=8.103%, BCER train=35.729%, BWER train=68.024%, skip ratio=0.000%, New best BCER = 35.729 wrote checkpoint.
+2 Percent improvement time=195, best error was 36.761 @ 3190
+At iteration 3385/3400/3400, mean rms=2.805%, delta=7.916%, BCER train=34.726%, BWER train=67.129%, skip ratio=0.000%, New best BCER = 34.726 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_34.726_3385_3400.checkpoint wrote checkpoint.
+2 Percent improvement time=197, best error was 35.729 @ 3286
+At iteration 3483/3500/3500, mean rms=2.771%, delta=7.740%, BCER train=33.658%, BWER train=65.888%, skip ratio=0.000%, New best BCER = 33.658 wrote checkpoint.
+2 Percent improvement time=297, best error was 35.729 @ 3286
+At iteration 3583/3600/3600, mean rms=2.741%, delta=7.563%, BCER train=32.921%, BWER train=64.737%, skip ratio=0.000%, New best BCER = 32.921 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_32.921_3583_3600.checkpoint wrote checkpoint.
+2 Percent improvement time=293, best error was 34.726 @ 3385
+At iteration 3678/3700/3700, mean rms=2.706%, delta=7.362%, BCER train=32.072%, BWER train=64.084%, skip ratio=0.000%, New best BCER = 32.072 wrote checkpoint.
+2 Percent improvement time=291, best error was 33.658 @ 3483
+At iteration 3774/3800/3800, mean rms=2.680%, delta=7.193%, BCER train=31.227%, BWER train=63.303%, skip ratio=0.000%, New best BCER = 31.227 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_31.227_3774_3800.checkpoint wrote checkpoint.
+2 Percent improvement time=290, best error was 32.921 @ 3583
+At iteration 3873/3900/3900, mean rms=2.643%, delta=6.971%, BCER train=30.279%, BWER train=62.144%, skip ratio=0.000%, New best BCER = 30.279 wrote checkpoint.
+2 Percent improvement time=292, best error was 32.072 @ 3678
+At iteration 3970/4000/4000, mean rms=2.613%, delta=6.811%, BCER train=29.448%, BWER train=61.349%, skip ratio=0.000%, New best BCER = 29.448 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_29.448_3970_4000.checkpoint wrote checkpoint.
+2 Percent improvement time=293, best error was 31.227 @ 3774
+At iteration 4067/4100/4100, mean rms=2.582%, delta=6.634%, BCER train=28.543%, BWER train=60.566%, skip ratio=0.000%, New best BCER = 28.543 wrote checkpoint.
+2 Percent improvement time=192, best error was 29.448 @ 3970
+At iteration 4162/4200/4200, mean rms=2.538%, delta=6.398%, BCER train=27.295%, BWER train=59.313%, skip ratio=0.000%, New best BCER = 27.295 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_27.295_4162_4200.checkpoint wrote checkpoint.
+2 Percent improvement time=189, best error was 28.543 @ 4067
+At iteration 4256/4300/4300, mean rms=2.497%, delta=6.170%, BCER train=26.302%, BWER train=58.137%, skip ratio=0.000%, New best BCER = 26.302 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_26.302_4256_4300.checkpoint wrote checkpoint.
+2 Percent improvement time=188, best error was 27.295 @ 4162
+At iteration 4350/4400/4400, mean rms=2.450%, delta=5.901%, BCER train=25.235%, BWER train=56.706%, skip ratio=0.000%, New best BCER = 25.235 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_25.235_4350_4400.checkpoint wrote checkpoint.
+2 Percent improvement time=187, best error was 26.302 @ 4256
+At iteration 4443/4500/4500, mean rms=2.401%, delta=5.598%, BCER train=24.248%, BWER train=55.537%, skip ratio=0.000%, New best BCER = 24.248 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_24.248_4443_4500.checkpoint wrote checkpoint.
+2 Percent improvement time=188, best error was 25.235 @ 4350
+At iteration 4538/4600/4600, mean rms=2.347%, delta=5.313%, BCER train=23.202%, BWER train=53.949%, skip ratio=0.000%, New best BCER = 23.202 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_23.202_4538_4600.checkpoint wrote checkpoint.
+2 Percent improvement time=188, best error was 24.248 @ 4443
+At iteration 4631/4700/4700, mean rms=2.301%, delta=5.063%, BCER train=22.236%, BWER train=52.550%, skip ratio=0.000%, New best BCER = 22.236 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_22.236_4631_4700.checkpoint wrote checkpoint.
+2 Percent improvement time=278, best error was 24.248 @ 4443
+At iteration 4721/4800/4800, mean rms=2.254%, delta=4.828%, BCER train=21.363%, BWER train=51.371%, skip ratio=0.000%, New best BCER = 21.363 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_21.363_4721_4800.checkpoint wrote checkpoint.
+2 Percent improvement time=277, best error was 23.202 @ 4538
+At iteration 4815/4900/4900, mean rms=2.215%, delta=4.642%, BCER train=20.672%, BWER train=50.605%, skip ratio=0.000%, New best BCER = 20.672 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_20.672_4815_4900.checkpoint wrote checkpoint.
+2 Percent improvement time=277, best error was 22.236 @ 4631
+At iteration 4908/5000/5000, mean rms=2.185%, delta=4.502%, BCER train=20.060%, BWER train=49.557%, skip ratio=0.000%, New best BCER = 20.060 wrote checkpoint.
+2 Percent improvement time=279, best error was 21.363 @ 4721
+At iteration 5000/5100/5100, mean rms=2.151%, delta=4.341%, BCER train=19.344%, BWER train=48.347%, skip ratio=0.000%, New best BCER = 19.344 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_19.344_5000_5100.checkpoint wrote checkpoint.
+2 Percent improvement time=370, best error was 21.363 @ 4721
+At iteration 5091/5200/5200, mean rms=2.122%, delta=4.227%, BCER train=18.786%, BWER train=47.908%, skip ratio=0.000%, New best BCER = 18.786 wrote checkpoint.
+2 Percent improvement time=266, best error was 20.06 @ 4908
+At iteration 5174/5300/5300, mean rms=2.087%, delta=4.065%, BCER train=18.056%, BWER train=46.443%, skip ratio=0.000%, New best BCER = 18.056 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_18.056_5174_5300.checkpoint wrote checkpoint.
+2 Percent improvement time=253, best error was 19.344 @ 5000
+At iteration 5253/5400/5400, mean rms=2.039%, delta=3.828%, BCER train=17.178%, BWER train=44.951%, skip ratio=0.000%, New best BCER = 17.178 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_17.178_5253_5400.checkpoint wrote checkpoint.
+2 Percent improvement time=244, best error was 18.786 @ 5091
+At iteration 5335/5500/5500, mean rms=2.006%, delta=3.710%, BCER train=16.536%, BWER train=43.712%, skip ratio=0.000%, New best BCER = 16.536 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_16.536_5335_5500.checkpoint wrote checkpoint.
+2 Percent improvement time=238, best error was 18.056 @ 5174
+At iteration 5412/5600/5600, mean rms=1.974%, delta=3.522%, BCER train=15.846%, BWER train=42.844%, skip ratio=0.000%, New best BCER = 15.846 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_15.846_5412_5600.checkpoint wrote checkpoint.
+2 Percent improvement time=227, best error was 17.178 @ 5253
+At iteration 5480/5700/5700, mean rms=1.933%, delta=3.356%, BCER train=15.069%, BWER train=41.352%, skip ratio=0.000%, New best BCER = 15.069 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_15.069_5480_5700.checkpoint wrote checkpoint.
+2 Percent improvement time=306, best error was 17.178 @ 5253
+At iteration 5559/5800/5800, mean rms=1.905%, delta=3.267%, BCER train=14.582%, BWER train=40.259%, skip ratio=0.000%, New best BCER = 14.582 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_14.582_5559_5800.checkpoint wrote checkpoint.
+2 Percent improvement time=297, best error was 16.536 @ 5335
+At iteration 5632/5900/5900, mean rms=1.865%, delta=3.092%, BCER train=13.994%, BWER train=38.919%, skip ratio=0.000%, New best BCER = 13.994 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_13.994_5632_5900.checkpoint wrote checkpoint.
+2 Percent improvement time=215, best error was 15.069 @ 5480
+At iteration 5695/6000/6000, mean rms=1.799%, delta=2.764%, BCER train=13.036%, BWER train=37.088%, skip ratio=0.000%, New best BCER = 13.036 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_13.036_5695_6000.checkpoint wrote checkpoint.
+2 Percent improvement time=205, best error was 14.582 @ 5559
+At iteration 5764/6100/6100, mean rms=1.741%, delta=2.535%, BCER train=12.269%, BWER train=35.671%, skip ratio=0.000%, New best BCER = 12.269 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_12.269_5764_6100.checkpoint wrote checkpoint.
+2 Percent improvement time=201, best error was 13.994 @ 5632
+At iteration 5833/6200/6200, mean rms=1.691%, delta=2.305%, BCER train=11.528%, BWER train=34.265%, skip ratio=0.000%, New best BCER = 11.528 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_11.528_5833_6200.checkpoint wrote checkpoint.
+2 Percent improvement time=201, best error was 13.036 @ 5695
+At iteration 5896/6300/6300, mean rms=1.647%, delta=2.120%, BCER train=10.952%, BWER train=33.451%, skip ratio=0.000%, New best BCER = 10.952 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_10.952_5896_6300.checkpoint wrote checkpoint.
+2 Percent improvement time=273, best error was 13.036 @ 5695
+At iteration 5968/6400/6400, mean rms=1.642%, delta=2.147%, BCER train=10.877%, BWER train=33.387%, skip ratio=0.000%, New best BCER = 10.877 wrote checkpoint.
+2 Percent improvement time=330, best error was 13.036 @ 5695
+At iteration 6025/6500/6500, mean rms=1.610%, delta=2.047%, BCER train=10.386%, BWER train=32.373%, skip ratio=0.000%, New best BCER = 10.386 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_10.386_6025_6500.checkpoint wrote checkpoint.
+2 Percent improvement time=322, best error was 12.269 @ 5764
+At iteration 6086/6600/6600, mean rms=1.588%, delta=1.992%, BCER train=10.086%, BWER train=31.778%, skip ratio=0.000%, New best BCER = 10.086 wrote checkpoint.
+2 Percent improvement time=383, best error was 12.269 @ 5764
+At iteration 6147/6700/6700, mean rms=1.564%, delta=1.911%, BCER train=9.786%, BWER train=31.083%, skip ratio=0.000%, New best BCER = 9.786 Transitioned to stage 1 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_9.786_6147_6700.checkpoint wrote checkpoint.
+2 Percent improvement time=361, best error was 11.528 @ 5833
+At iteration 6194/6800/6800, mean rms=1.515%, delta=1.707%, BCER train=9.170%, BWER train=29.807%, skip ratio=0.000%, New best BCER = 9.170 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_9.170_6194_6800.checkpoint wrote checkpoint.
+2 Percent improvement time=276, best error was 10.877 @ 5968
+At iteration 6244/6900/6900, mean rms=1.484%, delta=1.645%, BCER train=8.672%, BWER train=28.948%, skip ratio=0.000%, New best BCER = 8.672 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_8.672_6244_6900.checkpoint wrote checkpoint.
+2 Percent improvement time=332, best error was 10.877 @ 5968
+At iteration 6300/7000/7000, mean rms=1.480%, delta=1.631%, BCER train=8.555%, BWER train=28.829%, skip ratio=0.000%, New best BCER = 8.555 wrote checkpoint.
+2 Percent improvement time=316, best error was 10.386 @ 6025
+At iteration 6341/7100/7100, mean rms=1.453%, delta=1.520%, BCER train=8.135%, BWER train=27.856%, skip ratio=0.000%, New best BCER = 8.135 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_8.135_6341_7100.checkpoint wrote checkpoint.
+2 Percent improvement time=300, best error was 10.086 @ 6086
+At iteration 6386/7200/7200, mean rms=1.434%, delta=1.494%, BCER train=7.898%, BWER train=27.024%, skip ratio=0.000%, New best BCER = 7.898 wrote checkpoint.
+2 Percent improvement time=299, best error was 9.786 @ 6147
+At iteration 6446/7300/7300, mean rms=1.423%, delta=1.486%, BCER train=7.752%, BWER train=26.578%, skip ratio=0.000%, New best BCER = 7.752 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_7.752_6446_7300.checkpoint wrote checkpoint.
+2 Percent improvement time=347, best error was 9.786 @ 6147
+At iteration 6494/7400/7400, mean rms=1.381%, delta=1.349%, BCER train=7.178%, BWER train=25.253%, skip ratio=0.000%, New best BCER = 7.178 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_7.178_6494_7400.checkpoint wrote checkpoint.
+2 Percent improvement time=344, best error was 9.17 @ 6194
+At iteration 6538/7500/7500, mean rms=1.357%, delta=1.278%, BCER train=6.935%, BWER train=24.751%, skip ratio=0.000%, New best BCER = 6.935 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_6.935_6538_7500.checkpoint wrote checkpoint.
+2 Percent improvement time=342, best error was 8.672 @ 6244
+At iteration 6586/7600/7600, mean rms=1.329%, delta=1.211%, BCER train=6.611%, BWER train=23.735%, skip ratio=0.000%, New best BCER = 6.611 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_6.611_6586_7600.checkpoint wrote checkpoint.
+2 Percent improvement time=334, best error was 8.555 @ 6300
+At iteration 6634/7700/7700, mean rms=1.312%, delta=1.172%, BCER train=6.431%, BWER train=23.465%, skip ratio=0.000%, New best BCER = 6.431 wrote checkpoint.
+2 Percent improvement time=374, best error was 8.555 @ 6300
+At iteration 6674/7800/7800, mean rms=1.299%, delta=1.158%, BCER train=6.313%, BWER train=23.269%, skip ratio=0.000%, New best BCER = 6.313 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_6.313_6674_7800.checkpoint wrote checkpoint.
+2 Percent improvement time=416, best error was 8.555 @ 6300
+At iteration 6716/7900/7900, mean rms=1.286%, delta=1.103%, BCER train=6.149%, BWER train=22.800%, skip ratio=0.000%, New best BCER = 6.149 wrote checkpoint.
+2 Percent improvement time=362, best error was 7.898 @ 6386
+At iteration 6748/8000/8000, mean rms=1.251%, delta=1.028%, BCER train=5.758%, BWER train=21.803%, skip ratio=0.000%, New best BCER = 5.758 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_5.758_6748_8000.checkpoint wrote checkpoint.
+2 Percent improvement time=339, best error was 7.752 @ 6446
+At iteration 6785/8100/8100, mean rms=1.240%, delta=1.038%, BCER train=5.675%, BWER train=21.568%, skip ratio=0.000%, New best BCER = 5.675 wrote checkpoint.
+2 Percent improvement time=381, best error was 7.752 @ 6446
+At iteration 6827/8200/8200, mean rms=1.235%, delta=1.031%, BCER train=5.644%, BWER train=21.453%, skip ratio=0.000%, New best BCER = 5.644 wrote checkpoint.
+2 Percent improvement time=421, best error was 7.752 @ 6446
+At iteration 6867/8300/8300, mean rms=1.205%, delta=0.956%, BCER train=5.317%, BWER train=20.660%, skip ratio=0.000%, New best BCER = 5.317 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_5.317_6867_8300.checkpoint wrote checkpoint.
+At iteration 6914/8400/8400, mean rms=1.205%, delta=1.005%, BCER train=5.424%, BWER train=20.650%, skip ratio=0.000%, New worst BCER = 5.424 wrote checkpoint.
+2 Percent improvement time=501, best error was 7.752 @ 6446
+At iteration 6947/8500/8500, mean rms=1.184%, delta=0.967%, BCER train=5.229%, BWER train=20.197%, skip ratio=0.000%, New best BCER = 5.229 wrote checkpoint.
+2 Percent improvement time=489, best error was 7.178 @ 6494
+At iteration 6983/8600/8600, mean rms=1.167%, delta=0.928%, BCER train=5.110%, BWER train=19.658%, skip ratio=0.000%, New best BCER = 5.110 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_5.110_6983_8600.checkpoint wrote checkpoint.
+2 Percent improvement time=521, best error was 7.178 @ 6494
+At iteration 7015/8700/8700, mean rms=1.155%, delta=0.940%, BCER train=5.013%, BWER train=19.156%, skip ratio=0.000%, New best BCER = 5.013 wrote checkpoint.
+2 Percent improvement time=503, best error was 6.935 @ 6538
+At iteration 7041/8800/8800, mean rms=1.137%, delta=0.908%, BCER train=4.838%, BWER train=18.593%, skip ratio=0.000%, New best BCER = 4.838 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_4.838_7041_8800.checkpoint wrote checkpoint.
+2 Percent improvement time=524, best error was 6.935 @ 6538
+At iteration 7062/8900/8900, mean rms=1.104%, delta=0.848%, BCER train=4.612%, BWER train=17.831%, skip ratio=0.000%, New best BCER = 4.612 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_4.612_7062_8900.checkpoint wrote checkpoint.
+2 Percent improvement time=503, best error was 6.611 @ 6586
+At iteration 7089/9000/9000, mean rms=1.085%, delta=0.844%, BCER train=4.503%, BWER train=17.283%, skip ratio=0.000%, New best BCER = 4.503 wrote checkpoint.
+2 Percent improvement time=436, best error was 6.313 @ 6674
+At iteration 7110/9100/9100, mean rms=1.057%, delta=0.791%, BCER train=4.270%, BWER train=16.372%, skip ratio=0.000%, New best BCER = 4.270 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_4.270_7110_9100.checkpoint wrote checkpoint.
+2 Percent improvement time=420, best error was 6.149 @ 6716
+At iteration 7136/9200/9200, mean rms=1.031%, delta=0.743%, BCER train=4.048%, BWER train=15.701%, skip ratio=0.000%, New best BCER = 4.048 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_4.048_7136_9200.checkpoint wrote checkpoint.
+At iteration 7177/9300/9300, mean rms=1.026%, delta=0.770%, BCER train=4.076%, BWER train=15.712%, skip ratio=0.000%, New worst BCER = 4.076 wrote checkpoint.
+2 Percent improvement time=454, best error was 5.758 @ 6748
+At iteration 7202/9400/9400, mean rms=0.990%, delta=0.660%, BCER train=3.702%, BWER train=14.893%, skip ratio=0.000%, New best BCER = 3.702 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_3.702_7202_9400.checkpoint wrote checkpoint.
+At iteration 7237/9500/9500, mean rms=0.993%, delta=0.688%, BCER train=3.771%, BWER train=15.023%, skip ratio=0.000%, New worst BCER = 3.771 wrote checkpoint.
+2 Percent improvement time=478, best error was 5.675 @ 6785
+At iteration 7263/9600/9600, mean rms=0.985%, delta=0.653%, BCER train=3.668%, BWER train=14.965%, skip ratio=0.000%, New best BCER = 3.668 wrote checkpoint.
+2 Percent improvement time=470, best error was 5.644 @ 6827
+At iteration 7297/9700/9700, mean rms=0.972%, delta=0.603%, BCER train=3.541%, BWER train=14.686%, skip ratio=0.000%, New best BCER = 3.541 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_3.541_7297_9700.checkpoint wrote checkpoint.
+2 Percent improvement time=488, best error was 5.644 @ 6827
+At iteration 7315/9800/9800, mean rms=0.950%, delta=0.584%, BCER train=3.427%, BWER train=14.205%, skip ratio=0.000%, New best BCER = 3.427 wrote best model:data/Juice_ITC/checkpoints/Juice_ITC_3.427_7315_9800.checkpoint wrote checkpoint.
+At iteration 7343/9900/9900, mean rms=0.956%, delta=0.633%, BCER train=3.502%, BWER train=14.257%, skip ratio=0.000%, New worst BCER = 3.502 wrote checkpoint.
+At iteration 7379/10000/10000, mean rms=0.962%, delta=0.644%, BCER train=3.569%, BWER train=14.658%, skip ratio=0.000%, New worst BCER = 3.569 wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 3.427

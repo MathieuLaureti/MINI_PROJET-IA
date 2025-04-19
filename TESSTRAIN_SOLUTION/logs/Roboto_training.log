@@ -1,0 +1,34 @@
+Loaded file data/eng/roboto.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 111 to 111!
+Num (Extended) outputs,weights in Series:
+  1,36,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  TxyLfys64:64, 20736
+  Lfx96:96, 61824
+  RxLrx96:96, 74112
+  Lfx512:512, 1247232
+  Fc111:111, 56943
+Total weights = 1461007
+Previous null char=110 mapped to 110
+Continuing from data/eng/roboto.lstm
+2 Percent improvement time=43, best error was 100 @ 0
+At iteration 43/100/100, mean rms=1.295%, delta=2.747%, BCER train=3.984%, BWER train=10.356%, skip ratio=0.000%, New best BCER = 3.984 Transitioned to stage 1 wrote best model:data/roboto/checkpoints/roboto_3.984_43_100.checkpoint wrote checkpoint.
+2 Percent improvement time=76, best error was 100 @ 0
+At iteration 76/200/200, mean rms=1.162%, delta=2.507%, BCER train=3.632%, BWER train=9.503%, skip ratio=0.000%, New best BCER = 3.632 wrote best model:data/roboto/checkpoints/roboto_3.632_76_200.checkpoint wrote checkpoint.
+2 Percent improvement time=103, best error was 100 @ 0
+At iteration 103/300/300, mean rms=1.057%, delta=2.189%, BCER train=3.163%, BWER train=8.685%, skip ratio=0.000%, New best BCER = 3.163 wrote best model:data/roboto/checkpoints/roboto_3.163_103_300.checkpoint wrote checkpoint.
+2 Percent improvement time=120, best error was 100 @ 0
+At iteration 120/400/400, mean rms=0.950%, delta=1.792%, BCER train=2.787%, BWER train=7.772%, skip ratio=0.000%, New best BCER = 2.787 wrote best model:data/roboto/checkpoints/roboto_2.787_120_400.checkpoint wrote checkpoint.
+2 Percent improvement time=134, best error was 100 @ 0
+At iteration 134/500/500, mean rms=0.864%, delta=1.567%, BCER train=2.388%, BWER train=6.862%, skip ratio=0.000%, New best BCER = 2.388 wrote best model:data/roboto/checkpoints/roboto_2.388_134_500.checkpoint wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 2.388
+Loaded file data/roboto/checkpoints/roboto_checkpoint, unpacking...
+Successfully restored trainer from data/roboto/checkpoints/roboto_checkpoint
+At iteration 134/500/500, mean rms=0.864%, delta=1.567%, BCER train=2.388%, BWER train=6.862%, skip ratio=0.000%, wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 2.388

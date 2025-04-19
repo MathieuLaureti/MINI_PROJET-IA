@@ -1,0 +1,73 @@
+Loaded file data/eng/Bradley_Hand_ITC.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 111 to 111!
+Num (Extended) outputs,weights in Series:
+  1,36,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  TxyLfys64:64, 20736
+  Lfx96:96, 61824
+  RxLrx96:96, 74112
+  Lfx512:512, 1247232
+  Fc111:111, 56943
+Total weights = 1461007
+Previous null char=110 mapped to 110
+Continuing from data/eng/Bradley_Hand_ITC.lstm
+2 Percent improvement time=100, best error was 100 @ 0
+At iteration 100/100/100, mean rms=3.232%, delta=10.933%, BCER train=47.253%, BWER train=87.375%, skip ratio=0.000%, New best BCER = 47.253 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_47.253_100_100.checkpoint wrote checkpoint.
+2 Percent improvement time=96, best error was 47.253 @ 100
+At iteration 196/200/200, mean rms=2.762%, delta=8.821%, BCER train=36.528%, BWER train=82.547%, skip ratio=0.000%, New best BCER = 36.528 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_36.528_196_200.checkpoint wrote checkpoint.
+2 Percent improvement time=78, best error was 36.528 @ 196
+At iteration 274/300/300, mean rms=2.363%, delta=6.775%, BCER train=30.023%, BWER train=78.100%, skip ratio=0.000%, New best BCER = 30.023 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_30.023_274_300.checkpoint wrote checkpoint.
+2 Percent improvement time=56, best error was 30.023 @ 274
+At iteration 330/400/400, mean rms=2.098%, delta=5.533%, BCER train=26.375%, BWER train=75.018%, skip ratio=0.000%, New best BCER = 26.375 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_26.375_330_400.checkpoint wrote checkpoint.
+2 Percent improvement time=31, best error was 26.375 @ 330
+At iteration 361/500/500, mean rms=1.908%, delta=4.633%, BCER train=23.957%, BWER train=73.451%, skip ratio=0.000%, New best BCER = 23.957 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_23.957_361_500.checkpoint wrote checkpoint.
+2 Percent improvement time=67, best error was 26.375 @ 330
+At iteration 397/600/600, mean rms=1.772%, delta=4.039%, BCER train=22.366%, BWER train=72.370%, skip ratio=0.000%, New best BCER = 22.366 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_22.366_397_600.checkpoint wrote checkpoint.
+2 Percent improvement time=62, best error was 23.957 @ 361
+At iteration 423/700/700, mean rms=1.662%, delta=3.554%, BCER train=21.142%, BWER train=71.260%, skip ratio=0.000%, New best BCER = 21.142 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_21.142_423_700.checkpoint wrote checkpoint.
+2 Percent improvement time=43, best error was 22.366 @ 397
+At iteration 440/800/800, mean rms=1.568%, delta=3.209%, BCER train=20.214%, BWER train=70.640%, skip ratio=0.000%, New best BCER = 20.214 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_20.214_440_800.checkpoint wrote checkpoint.
+2 Percent improvement time=61, best error was 22.366 @ 397
+At iteration 458/900/900, mean rms=1.487%, delta=2.913%, BCER train=19.499%, BWER train=70.101%, skip ratio=0.000%, New best BCER = 19.499 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_19.499_458_900.checkpoint wrote checkpoint.
+2 Percent improvement time=51, best error was 21.142 @ 423
+At iteration 474/1000/1000, mean rms=1.420%, delta=2.667%, BCER train=18.913%, BWER train=69.772%, skip ratio=0.000%, New best BCER = 18.913 wrote checkpoint.
+2 Percent improvement time=18, best error was 18.913 @ 474
+At iteration 492/1100/1100, mean rms=1.184%, delta=1.671%, BCER train=15.743%, BWER train=67.873%, skip ratio=0.000%, New best BCER = 15.743 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_15.743_492_1100.checkpoint wrote checkpoint.
+2 Percent improvement time=29, best error was 18.913 @ 474
+At iteration 503/1200/1200, mean rms=1.020%, delta=1.031%, BCER train=14.515%, BWER train=66.878%, skip ratio=0.000%, New best BCER = 14.515 wrote best model:data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_14.515_503_1200.checkpoint wrote checkpoint.
+2 Percent improvement time=33, best error was 18.913 @ 474
+At iteration 507/1300/1300, mean rms=0.920%, delta=0.783%, BCER train=14.267%, BWER train=66.901%, skip ratio=0.000%, New best BCER = 14.267 wrote checkpoint.
+2 Percent improvement time=35, best error was 18.913 @ 474
+At iteration 509/1400/1400, mean rms=0.836%, delta=0.611%, BCER train=14.191%, BWER train=67.280%, skip ratio=0.000%, New best BCER = 14.191 wrote checkpoint.
+At iteration 514/1500/1500, mean rms=0.769%, delta=0.517%, BCER train=14.319%, BWER train=67.669%, skip ratio=0.000%, New worst BCER = 14.319 wrote checkpoint.
+At iteration 515/1600/1600, mean rms=0.704%, delta=0.430%, BCER train=14.373%, BWER train=67.789%, skip ratio=0.000%, New worst BCER = 14.373 wrote checkpoint.
+At iteration 515/1700/1700, mean rms=0.641%, delta=0.366%, BCER train=14.608%, BWER train=68.600%, skip ratio=0.000%, New worst BCER = 14.608 wrote checkpoint.
+At iteration 519/1800/1800, mean rms=0.595%, delta=0.296%, BCER train=14.799%, BWER train=69.167%, skip ratio=0.000%, New worst BCER = 14.799 wrote checkpoint.
+At iteration 520/1900/1900, mean rms=0.551%, delta=0.252%, BCER train=15.055%, BWER train=70.045%, skip ratio=0.000%, New worst BCER = 15.055 wrote checkpoint.
+At iteration 520/2000/2000, mean rms=0.500%, delta=0.207%, BCER train=15.354%, BWER train=70.777%, skip ratio=0.000%, New worst BCER = 15.354 wrote checkpoint.
+At iteration 521/2100/2100, mean rms=0.446%, delta=0.112%, BCER train=15.516%, BWER train=71.759%, skip ratio=0.000%, New worst BCER = 15.516 wrote checkpoint.
+At iteration 521/2200/2200, mean rms=0.412%, delta=0.081%, BCER train=15.899%, BWER train=72.783%, skip ratio=0.000%, New worst BCER = 15.899 wrote checkpoint.
+At iteration 521/2300/2300, mean rms=0.386%, delta=0.060%, BCER train=16.194%, BWER train=73.632%, skip ratio=0.000%, New worst BCER = 16.194 wrote checkpoint.
+At iteration 522/2400/2400, mean rms=0.373%, delta=0.053%, BCER train=16.400%, BWER train=74.547%, skip ratio=0.000%, New worst BCER = 16.400 wrote checkpoint.
+At iteration 523/2500/2500, mean rms=0.354%, delta=0.046%, BCER train=16.658%, BWER train=75.351%, skip ratio=0.000%, New worst BCER = 16.658 wrote checkpoint.
+At iteration 524/2600/2600, mean rms=0.341%, delta=0.027%, BCER train=16.931%, BWER train=76.486%, skip ratio=0.000%, New worst BCER = 16.931 wrote checkpoint.
+At iteration 524/2700/2700, mean rms=0.332%, delta=0.027%, BCER train=17.132%, BWER train=77.319%, skip ratio=0.000%, New worst BCER = 17.132 wrote checkpoint.
+At iteration 524/2800/2800, mean rms=0.312%, delta=0.017%, BCER train=17.407%, BWER train=78.154%, skip ratio=0.000%, New worst BCER = 17.407 wrote checkpoint.
+At iteration 524/2900/2900, mean rms=0.299%, delta=0.006%, BCER train=17.615%, BWER train=78.866%, skip ratio=0.000%, New worst BCER = 17.615 wrote checkpoint.
+At iteration 525/3000/3000, mean rms=0.294%, delta=0.007%, BCER train=17.827%, BWER train=79.800%, skip ratio=0.000%, New worst BCER = 17.827 wrote checkpoint.
+At iteration 526/3100/3100, mean rms=0.288%, delta=0.008%, BCER train=17.966%, BWER train=80.240%, skip ratio=0.000%, New worst BCER = 17.966 wrote checkpoint.
+At iteration 527/3200/3200, mean rms=0.290%, delta=0.012%, BCER train=17.952%, BWER train=80.413%, skip ratio=0.000%, New worst BCER = 17.952 wrote checkpoint.
+At iteration 528/3300/3300, mean rms=0.296%, delta=0.014%, BCER train=17.933%, BWER train=80.510%, skip ratio=0.000%, New worst BCER = 17.933 wrote checkpoint.
+At iteration 528/3400/3400, mean rms=0.292%, delta=0.013%, BCER train=18.095%, BWER train=80.789%, skip ratio=0.000%, New worst BCER = 18.095 wrote checkpoint.
+At iteration 528/3500/3500, mean rms=0.287%, delta=0.011%, BCER train=18.181%, BWER train=81.241%, skip ratio=0.000%, New worst BCER = 18.181 wrote checkpoint.
+At iteration 528/3600/3600, mean rms=0.283%, delta=0.010%, BCER train=18.370%, BWER train=81.622%, skip ratio=0.000%, New worst BCER = 18.370 wrote checkpoint.
+At iteration 528/3700/3700, mean rms=0.281%, delta=0.010%, BCER traiLoaded file data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_checkpoint, unpacking...
+Successfully restored trainer from data/Bradley_Hand_ITC/checkpoints/Bradley_Hand_ITC_checkpoint
+At iteration 605/6000/6000, mean rms=0.306%, delta=0.068%, BCER train=18.324%, BWER train=80.814%, skip ratio=0.000%, New worst BCER = 18.324 wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 14.191

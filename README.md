@@ -4,18 +4,9 @@
 
 ### 1. Définition de la Tâche
 
-
-%%
-- **Description de la tâche**: Expliquez ce que fait votre système (entrée et sortie).
-- **Délimitation**: Assurez-vous que la tâche n'est ni trop large ni trop étroite.
-- **Pertinence IA**: Justifiez l'utilisation de l'intelligence artificielle pour cette tâche.
-%%
 #### **Description de la tâche**: Expliquez ce que fait votre système (entrée et sortie).
 
 Le système qui sera développé devra prendre en entrée une police de caractère ainsi qu'une image textuel ayant cette même police de caractère. Après traitement, Elle retournera une chaîne de caractère correspondant au texte donner en entrée sous forme imagée. Le modèle doit constamment apprendre de nouvelles polices de caractère. Elle doit s'adapter aux nouvelles polices de caractères utilisées et nommer par l'utilisateur.
-
-#### **Délimitation**: Assurez-vous que la tâche n'est ni trop large ni trop étroite.
-
 
 
 #### **Pertinence IA**: Justifiez l'utilisation de l'intelligence artificielle pour cette tâche.
@@ -38,12 +29,7 @@ Dans la littérature, nous pouvons citer deux. Implémentations du OCR :
 + La première consistait à simplifier la documentation des transactions dans le commerce électronique . Le OCR servait à numériser les transactions sous format papier. Ainsi, il était plus facile de parcourir l'historique des transactions. Le modèle atteignait un score F1 de 0,7703 lors de ses tests  
 + Le deuxième utilisait le OCR afin de lire des caractères sur des interfaces graphiques comme des boutons, des textes et des champs de texte. Ce modèle utilise un réseau de neurones dans sa méthode d'apprentissage. Il a été implémenter sur deux architectures. Soit l'architecture en cascade et l'architecture "bout-en-bout".  Ce modèle a eu un score F1 de 94% 
 ### 3. Matériel et Méthodes
-%%
-- **Infrastructure**: Décrivez les outils et les ressources utilisés (bases de données, logiciels, etc.).
-- **Méthodes**: Expliquez les données et/ou algorithmes et techniques employés.
-- **Évaluation**: Décrivez comment vous avez mesuré le succès du système (précision, temps de traitement, etc.). 
 
-%%
 
 #### Infrastructure
 Lors de ce projet, nous utiliserons le langage de programmation Python afin d'entraîner le modèle pour chaque police de caractère entrée par l'utilisateur. Ce langage de programmation est très utilisé pour ce qui est de l'intelligence artificielle de l'analyse de données et du machine Learning. Sa syntaxe est aussi très simpliste et très simple d'utilisation. 
@@ -90,10 +76,7 @@ Nous avions initialement envisagé d’évaluer les performances de notre modèl
 Pour cette raison, nous avons opté pour deux métriques beaucoup plus pertinentes dans le domaine de l’OCR : le **CER (Character Error Rate)** et le **WER (Word Error Rate)**. Ces mesures sont issues du domaine de la reconnaissance vocale et sont désormais largement utilisées pour évaluer la précision des systèmes de transcription automatique. Le **CER** mesure le taux d’erreur au niveau des **caractères** en calculant la distance de Levenshtein entre le texte prédit et le texte de référence, c’est-à-dire le nombre minimum d’opérations (insertions, suppressions ou substitutions) nécessaires pour transformer l’un en l’autre, divisé par le nombre total de caractères attendus. De même, le **WER** applique ce même principe, mais au niveau des **mots**. Ces métriques permettent donc de quantifier précisément à quel point une prédiction est proche du texte correct, même en cas d’erreurs partielles, et donnent une évaluation beaucoup plus nuancée et représentative des performances réelles d’un modèle OCR.
 ### 4. Résultats
 
-%%
-- **Présentation des résultats**: Affichez les résultats obtenus sous forme de tableaux ou graphiques.
-- **Analyse**: Interprétez les résultats et discutez de leur signification.
-%%
+
 ###### Résultats de l'entrainement
 
 Ce graphique présente le CER en fonction du nombre itération de l'entraînement du modèle tout les modèles ont été entrainé avec un maximum de 10.000 itérations afin d'éviter du surentrainement. 
@@ -143,22 +126,14 @@ Puis, on peut notée que le modèle "Juice_ITC" n'a pas afficher des résulats �
 
 
 
-%%
-- **Résumé des résultats**: Faites un résumé des principales découvertes.
-- **Perspectives**: Proposez des pistes pour améliorer le système ou pour des travaux futurs.
-%%
 
+
+#### résumé des résultats
+
+Pour résumer les résultats, nous simplifierons en disant que nous avons accompli notre objectif qui était de concevoir un système OCR. Notre objectif était de créer un modèle ancien capable de reconnaître de l'écriture computationnelle sous forme d'image et de la convertir sous forme de chaîne de caractère. Cet objectif a été accompli avec une grande robustesse. Les seules polices de caractère qui n'ont pas été reconnues par notre modèle sont des polices de caractère qui sont moins encadré et moins computationnelle. Ce sont des palettes de Cara qui sont plus typiques d'une écriture manuscrites. Des écritures qui ne peuvent pas être bien cadré. 
 
 #### Perspectives et amélioration
 
-
-%%
-Utiliser différents types de Background en arrière des lettres
-Utiliser différentes taille de polices d'écriture
-Utiliser les caractères français et de d'autres langues
-Signe de ponctuation
-Caractère spéciaux
-%%
 
 
 
@@ -183,31 +158,9 @@ Encore une fois, dans les données d'entraînement, l'ensemble des caractères p
 Outre les caractères, il y a aussi l'ensemble des signes de ponctuation et des caractères spéciaux. La plupart du contenu textuel qui sera analysé par le modèle qui sera utilisé par l'utilisateur oran, une syntaxe nécessitant des signes de ponctuation et des caractères spéciaux. Au sein de nos données d'entraînement, il a été omis, dans son intégralité, l'existence de ces caractères. Pour ces raisons, il serait pertinent d'intégrer ses caractères spéciaux et ses signes de ponctuation à l'intérieur de nos données d'entraînement si le projet était à recommencer ou à poursuivre.
 
 
-// ici, tu peux parler des situations que tu as rencontrées durant le développement Mathieu
 
 
 
-
-
-%%
-## Directives Générales
-
-- **Originalité**: Chaque projet doit être unique et innovant.
-- **Collaboration**: Travaillez en équipe et partagez les tâches de manière équitable.
-- **Documentation**: Documentez chaque étape du projet de manière claire et détaillée.
-
-## Évaluation
-
-Les projets seront évalués selon les critères suivants :
-
-- **Définition de la tâche**: Clarté et pertinence.
-- **Revue de la littérature**: Pertinence et qualité des références.
-- **Méthodes**: Adéquation et justesse des techniques employées.
-- **Résultats**: Qualité et analyse des résultats.
-- **Conclusion**: Pertinence des conclusions et propositions futures.
-- **Présentation orale**: Structure, organisation, cohérence et clarté de la présentation.
-
-%%
 
 
 

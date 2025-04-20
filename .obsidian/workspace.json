@@ -11,12 +11,14 @@
             "id": "3e1062f280f0764d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "NicolasTessierMathieuLauretiProgres.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "NicolasTessierMathieuLauretiProgres"
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -84,7 +86,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,17 +183,31 @@
   },
   "active": "3e1062f280f0764d",
   "lastOpenFiles": [
-    "~$Présentation.pptx",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Vladimir_Script_Regular/sample_0.box",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Vladimir_Script_Regular/sample_0.tif",
+    "TESSTRAIN_SOLUTION/test_models.py",
+    "TESSTRAIN_SOLUTION/tesstrain/data/Vladimir_Script_Regular.traineddata",
+    "TESSTRAIN_SOLUTION/tesstrain/data/Stencil.traineddata",
+    "TESSTRAIN_SOLUTION/tesstrain/data/Juice_ITC.traineddata",
+    "TESSTRAIN_SOLUTION/tesstrain/data/Brush_Script_MT_Italic.traineddata",
+    "TESSTRAIN_SOLUTION/tesstrain/data/Bradley_Hand_ITC.traineddata",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/roboto.traineddata",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Bradley_Hand_ITC/sample_0.png",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Bradley_Hand_ITC/sample_0.box",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Bradley_Hand_ITC/sample_0.tif",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Brush_Script_MT_Italic/sample_0.png",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Juice_ITC/sample_0.png",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Stencil/sample_0.png",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Vladimir_Script_Regular/sample_0.png",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/sample_0.png",
+    "Pasted image 20250420144005.png",
+    "Pasted image 20250420143950.png",
     "NicolasTessierMathieuLauretiProgres.md",
-    "NicolasTessierMathieuLauretiProgres.pdf",
-    "Note présentation (conflicted).md",
-    "Note présentation.md",
     "Graphique.png",
     "README.md",
+    "Note présentation (conflicted).md",
+    "Note présentation.md",
     "test_cases/Dancing/case3.png",
-    "test_cases/Dancing/case1.png",
-    "test_cases/Dancing/case0.png",
-    "Note.md",
-    "Note présentation.md.part"
+    "Note.md"
   ]
 }

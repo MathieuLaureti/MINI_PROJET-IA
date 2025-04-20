@@ -5,11 +5,11 @@ from PIL import Image
 import shutil
 
 # ==== CONFIGURATION ====
-FONT_NAME = "Stencil"  # Change this to your desired font name
-name = FONT_NAME.replace(" ", "_")
-OUTPUT_DIR = Path(fr"C:\Users\mathi\OneDrive\Documents\GitHub\MINI_PROJET-IA\TESSTRAIN_SOLUTION\tesstrain\data\{name}-ground-truth")
+FONT_NAME = "Vladimir Script Regular"  # Change this to your desired font name
+name = f"test\{FONT_NAME.replace(' ', '_')}"	
+OUTPUT_DIR = Path(fr"C:\Users\mathi\OneDrive\Documents\GitHub\MINI_PROJET-IA\TESSTRAIN_SOLUTION\tesstrain\data\{name}")
 MISC_DIR = Path(r"C:\Users\mathi\OneDrive\Documents\GitHub\MINI_PROJET-IA\TESSTRAIN_SOLUTION\tesstrain\misc")
-PHRASES = [
+PHRASESS = [
     "The quick brown fox jumps over the lazy dog.",
     "Tesseract OCR is amazing.",
     "0123456789 are digits.",
@@ -59,6 +59,9 @@ PHRASES = [
     "Necessity is the mother of invention.",
     "Silence is golden.",
     "Knowledge is power."
+]
+PHRASES = [	
+    "Hello, World! Is this a test?",
 ]
 
 FONT_SIZE = 12

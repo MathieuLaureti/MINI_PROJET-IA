@@ -11,12 +11,14 @@
             "id": "3e1062f280f0764d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "NicolasTessierMathieuLauretiProgres.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "NicolasTessierMathieuLauretiProgres"
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -54,7 +56,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -170,23 +172,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
     }
   },
   "active": "3e1062f280f0764d",
   "lastOpenFiles": [
-    "~$Présentation.pptx",
+    "Note présentation.md",
+    "Note présentation (conflicted).md",
+    "README.md",
     "NicolasTessierMathieuLauretiProgres.md",
     "NicolasTessierMathieuLauretiProgres.pdf",
-    "Note présentation (conflicted).md",
-    "Note présentation.md",
+    "~$Présentation.pptx",
     "Graphique.png",
-    "README.md",
     "test_cases/Dancing/case3.png",
     "test_cases/Dancing/case1.png",
     "test_cases/Dancing/case0.png",

@@ -181,9 +181,6 @@ TESSTRAIN https://github.com/tesseract-ocr/tesstrain
 
 
 
-Sens de lecture
-Radical_stroke.txt : mapper symboles asiatiques caractère spéciaux
-
 
 
 

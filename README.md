@@ -57,16 +57,15 @@ Au niveau des données d'entrainement, nous avons simplement demander à ChatGPT
 
 Pour tester notre programme, nous avons choisi 5 police qui sont illustré ci dessous :
 ###### Vladimir Script
-
-![[TESSTRAIN_SOLUTION/tesstrain/data/Vladimir_Script_Regular-ground-truth/sample_0.png]]
+![[Pasted image 20250420214447.png]]
 ###### Stencil
-![[TESSTRAIN_SOLUTION/tesstrain/data/Stencil-ground-truth/sample_0.png]]
+![[Pasted image 20250420214502.png]]
 ###### Juice ITC
-![[TESSTRAIN_SOLUTION/tesstrain/data/Juice_ITC-ground-truth/sample_0.png]]
+![[Pasted image 20250420214612.png]]
 ###### Brush Script MT Italic
-![[TESSTRAIN_SOLUTION/tesstrain/data/Brush_Script_MT_Italic-ground-truth/sample_0.png]]
+![[Pasted image 20250420214426.png]]
 ###### Bradley Hand ITC
-![[TESSTRAIN_SOLUTION/tesstrain/data/Bradley_Hand_ITC-ground-truth/sample_0.png]]
+![[Pasted image 20250420214311.png]]
 
 
 #### évaluation

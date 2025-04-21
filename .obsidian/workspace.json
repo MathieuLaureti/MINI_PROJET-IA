@@ -11,12 +11,14 @@
             "id": "3e1062f280f0764d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "TESSTRAIN_SOLUTION/tesstrain/data/test/Bradley_Hand_ITC/sample_0.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "sample_0"
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -180,22 +182,27 @@
   },
   "active": "3e1062f280f0764d",
   "lastOpenFiles": [
-    "TESSTRAIN_SOLUTION/tesstrain/README.md",
-    "TESSTRAIN_SOLUTION/tesstrain/ocrd.plot_cer.png",
+    "Pasted image 20250420214612.png",
+    "Pasted image 20250420214502.png",
+    "Pasted image 20250420214447.png",
+    "Pasted image 20250420214426.png",
+    "Pasted image 20250420214311.png",
+    "Pasted image 20250420214302.png",
+    "README 1.pdf",
     "README.md",
+    "NicolasTessierMathieuLauretiProgres.md",
+    "Note présentation.md",
+    "NicolasTessierMathieuLauretiProgres.pdf",
     "Rapport de mi session.pdf",
-    "TESSTRAIN_SOLUTION/test_models.py",
     "Pasted image 20250420144005.png",
     "Pasted image 20250420143950.png",
-    "Note présentation.md",
+    "TESSTRAIN_SOLUTION/tesstrain/data/test/Bradley_Hand_ITC/sample_0.png",
+    "TESSTRAIN_SOLUTION/tesstrain/README.md",
+    "TESSTRAIN_SOLUTION/tesstrain/ocrd.plot_cer.png",
+    "TESSTRAIN_SOLUTION/test_models.py",
     "Note présentation (conflicted).md",
-    "NicolasTessierMathieuLauretiProgres.md",
-    "NicolasTessierMathieuLauretiProgres.pdf",
     "~$Présentation.pptx",
     "Graphique.png",
-    "test_cases/Dancing/case3.png",
-    "test_cases/Dancing/case1.png",
-    "test_cases/Dancing/case0.png",
     "Note.md",
     "Note présentation.md.part"
   ]

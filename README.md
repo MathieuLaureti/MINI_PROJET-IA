@@ -124,17 +124,11 @@ Outre ce modèle raté, on peut se tourner vers la police "Brush Script MT Itali
 Puis, on peut notée que le modèle "Juice_ITC" n'a pas afficher des résulats à la hauteur de ce qui est afficher dans les résultats d'entrainement.
 ### 5. Conclusion
 
-
-
-
-
 #### résumé des résultats
 
 Pour résumer les résultats, nous simplifierons en disant que nous avons accompli notre objectif qui était de concevoir un système OCR. Notre objectif était de créer un modèle ancien capable de reconnaître de l'écriture computationnelle sous forme d'image et de la convertir sous forme de chaîne de caractère. Cet objectif a été accompli avec une grande robustesse. Les seules polices de caractère qui n'ont pas été reconnues par notre modèle sont des polices de caractère qui sont moins encadré et moins computationnelle. Ce sont des palettes de Cara qui sont plus typiques d'une écriture manuscrites. Des écritures qui ne peuvent pas être bien cadré. 
 
 #### Perspectives et amélioration
-
-
 
 
 Plusieurs mesures peuvent être employés pour améliorer l'exactitude de notre modèle. 
@@ -156,14 +150,6 @@ Finalement, il pourrait être pertinent de considéré toute modification qui po
 Encore une fois, dans les données d'entraînement, l'ensemble des caractères proviennent de ceux qui sont permis dans la langue anglaise. cependant l'ensemble des utilisateurs de ce genre de modèle n'ont pas l'anglais comme langue maternelle. nous pouvons citer les langues asiatiques, telles que le japonais ou le mandarin qui possède leur propre ensemble de caractères. nous pouvons énumérer le nombre de caractères japonais au-dessus de 3000, alors que la langue anglaise ne possède que les lettres de l'alphabet. il serait donc pertinent d'entraîner le modèle sur l'ensemble des familles de caractère qui existe dans de multiples cultures et de multiples région du monde.
 
 Outre les caractères, il y a aussi l'ensemble des signes de ponctuation et des caractères spéciaux. La plupart du contenu textuel qui sera analysé par le modèle qui sera utilisé par l'utilisateur oran, une syntaxe nécessitant des signes de ponctuation et des caractères spéciaux. Au sein de nos données d'entraînement, il a été omis, dans son intégralité, l'existence de ces caractères. Pour ces raisons, il serait pertinent d'intégrer ses caractères spéciaux et ses signes de ponctuation à l'intérieur de nos données d'entraînement si le projet était à recommencer ou à poursuivre.
-
-
-
-
-
-
-
-
 
 
 

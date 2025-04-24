@@ -154,29 +154,6 @@ Outre les caractères, il y a aussi l'ensemble des signes de ponctuation et des 
 
 
 
-EASY OCR : https://github.com/JaidedAI/EasyOCR
-TESSERACT : https://github.com/tesseract-ocr/tesseract
-Google Vision API : https://cloud.google.com/vision?hl=fr
-ABBYY : https://www.abbyy.com/ocr-sdk/
-
-https://github.com/kennethleungty/OCR-Metrics-CER-WER?utm_source=chatgpt.com
-
-
-https://github.com/kennethleungty/OCR-Metrics-CER-WER?utm_source=chatgpt.com
-
-
-https://tesseract-ocr.github.io/tessdoc/tess4/TrainingTesseract-4.00.html
-
-
-https://tesseract-ocr.github.io/tessdoc/tess4/TrainingTesseract-4.00.html
-
-https://docs.kolena.com/metrics/wer-cer-mer/
-
-
-TESSTRAIN https://github.com/tesseract-ocr/tesstrain
-
-
-
 
 
 

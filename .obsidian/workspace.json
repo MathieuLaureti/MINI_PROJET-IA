@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b76c1ec0cdaaeae7",
+        "id": "477aeb9344d00b7b",
         "type": "tabs",
         "children": [
           {
-            "id": "3e1062f280f0764d",
+            "id": "c665c0512c813474",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "b96b53424b403d87",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Graphique.png"
-              },
-              "icon": "lucide-image",
-              "title": "Graphique"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -180,17 +164,22 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "3e1062f280f0764d",
+  "active": "c665c0512c813474",
   "lastOpenFiles": [
+    "Rapport de TP.docx",
+    "Graphique.png",
+    "README.md",
+    "Rapport final.pdf",
+    "Source.pdf",
+    "Source.docx",
+    "Pasted image 20250420214447.png",
     "Pasted image 20250420214612.png",
     "Pasted image 20250420214502.png",
-    "Pasted image 20250420214447.png",
     "Pasted image 20250420214426.png",
     "Pasted image 20250420214311.png",
     "Pasted image 20250420214302.png",
     "TESSTRAIN_SOLUTION/tesstrain/README.md",
     "TESSTRAIN_SOLUTION/tesstrain/ocrd.plot_cer.png",
-    "README.md",
     "Rapport de mi session.pdf",
     "TESSTRAIN_SOLUTION/test_models.py",
     "Pasted image 20250420144005.png",
@@ -200,8 +189,6 @@
     "NicolasTessierMathieuLauretiProgres.md",
     "NicolasTessierMathieuLauretiProgres.pdf",
     "~$Présentation.pptx",
-    "Graphique.png",
-    "test_cases/Dancing/case3.png",
     "Note.md",
     "Note présentation.md.part"
   ]
